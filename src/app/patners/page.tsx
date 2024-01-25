@@ -80,10 +80,10 @@ const Slider = () => {
                   
                     <Image
                       className="object-cover bg-yellow-600 px-6 py-6"
-                      src={patner1}
+                      src={"/Images/patner1.jpg"}
                       alt="image3"
-                      width={300}
-                      height={300}
+                      width={400}
+                      height={400}
                     />
                     <h1 className="text-2xl text-center py-4">Maxim Events</h1>
                   
@@ -92,7 +92,7 @@ const Slider = () => {
                   <Sections>
                     <Image
                       className="object-cover bg-black px-6 py-6"
-                      src={ patner3}
+                      src={"/Images/patner3.jpg"}
                       alt="image1"
                       width={400}
                       height={400}
@@ -106,7 +106,7 @@ const Slider = () => {
                   <Sections>
                     <Image
                       className="object-cover bg-yellow-600 px-6 py-6"
-                      src={patner2}
+                      src={"/Images/patner2.jpg"}
                       alt="image2"
                       width={400}
                       height={400}
