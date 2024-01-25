@@ -72,58 +72,58 @@ const Slider = () => {
 
               <div className="flex justify-center flex-wrap gap-8 ">
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image1.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/1.png"}
                   alt="image"
                   width={300}
                   height={400}
                 />
                 
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image2.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/2.png"}
                   alt="image"
                   width={300}
                  height={400}
       />
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image3.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/3.png"}
                   alt="image"
                   width={300}
                   height={400}
                 />
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image4.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/4.png"}
                   alt="image"
                   width={300}
                   height={400}
                 />
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image5.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/5.png"}
                   alt="image"
                   width={300}
                   height={400}
                 />
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image6.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/6.png"}
                   alt="image"
                   width={300}
                   height={400}
                 />
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image7.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/7.png"}
                   alt="image"
                   width={300}
                   height={400}
                 />
                 <Image
-                  className="object-cover w-auto"
-                  src={"/Junior/image8.jpg"}
+                  className="object-cover "
+                  src={"/JuniorImages/8.png"}
                   alt="image"
                   width={300}
                   height={400}

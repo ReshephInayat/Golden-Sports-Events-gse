@@ -5,6 +5,9 @@ import Image from "next/image";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Sections from "@/components/Sections";
+import patner1 from "/Users/rasaf/Desktop/Resheph Inayat Work/gse/public/images/patner1.jpg"
+import patner3 from "/Users/rasaf/Desktop/Resheph Inayat Work/gse/public/images/patner3.jpg"
+import patner2 from "/Users/rasaf/Desktop/Resheph Inayat Work/gse/public/images/patner2.jpg"
 
 const images = [
   "/images/image2.jpg",
@@ -74,23 +77,23 @@ const Slider = () => {
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
                 <Link href={"https://www.maximevents.asia/"} target="_blank">
-                  <Sections>
+                  
                     <Image
                       className="object-cover bg-yellow-600 px-6 py-6"
-                      src={"/Images/patner1.png"}
-                      alt="image"
-                      width={400}
-                      height={400}
+                      src={patner1}
+                      alt="image3"
+                      width={300}
+                      height={300}
                     />
                     <h1 className="text-2xl text-center py-4">Maxim Events</h1>
-                  </Sections>
+                  
                 </Link>
                 <Link href={"https://www.bslclub.com/"} target="_blank">
                   <Sections>
                     <Image
                       className="object-cover bg-black px-6 py-6"
-                      src={"/Images/patner3.png"}
-                      alt="image"
+                      src={ patner3}
+                      alt="image1"
                       width={400}
                       height={400}
                     />
@@ -103,8 +106,8 @@ const Slider = () => {
                   <Sections>
                     <Image
                       className="object-cover bg-yellow-600 px-6 py-6"
-                      src={"/Images/patner2.png"}
-                      alt="image"
+                      src={patner2}
+                      alt="image2"
                       width={400}
                       height={400}
                     />

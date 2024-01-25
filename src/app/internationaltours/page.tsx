@@ -73,42 +73,42 @@ const Slider = () => {
               <div className="flex justify-center flex-wrap gap-8 ">
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/image1.jpg"}
+                  src={"/InternationalTours/1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/image2.jpg"}
+                  src={"/InternationalTours/2.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/image3.jpg"}
+                  src={"/InternationalTours/3.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/image4.jpg"}
+                  src={"/InternationalTours/4.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/image5.jpg"}
+                  src={"/InternationalTours/5.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/image6.jpg"}
+                  src={"/InternationalTours/6.png"}
                   alt="image"
                   width={300}
                   height={300}

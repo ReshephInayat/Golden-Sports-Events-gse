@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import TeamMembers from "./TeamMembers";
 
+
 const responsive = {
   desktop: {
     breakpoint: { max: 3000, min: 1024 },
