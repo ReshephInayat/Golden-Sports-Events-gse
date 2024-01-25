@@ -14,23 +14,23 @@ const Footer = () => {
         <div className="grid border-b-[1px] pb-[6rem] border-gray-400 grid-cols-1 lg:grid-cols-3 md:grid-cols-2 w-[80%] mx-auto gap-[3rem]">
           <div className="flex items-center space-x-6">
             <div
-              className="md:w-[10rem] md:h-[6.5rem] w-[10rem] h-[5rem] flex items-center justify-center
+              className="md:w-[6rem] md:h-[6rem] w-[5rem] h-[5rem] flex items-center justify-center
             rounded-full bg-yellow-500 "
             >
-              <TfiLocationPin className="md:w-[4rem] md:h-[4rem] w-[3rem] h-[3rem] text-black" />
+              <TfiLocationPin className="md:w-[5rem] md:h-[5rem] w-[3rem] h-[3rem] text-black" />
             </div>
             <div>
               <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
                 Address
               </h1>
-              <p className="text-[17px] w-[90% ] text-white opacity-60">
-                House No. 42-A Ground Floor, 28 Nisbat Road Lahore
+              <p className="text-[17px] w-[100%] text-white opacity-60">
+                House No. 42-A <br/> Ground Floor, <br />28 Nisbat Road Lahore
               </p>
             </div>
           </div>
           <div className="flex items-center space-x-6">
             <div
-              className="md:w-[7rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center
+              className="md:w-[6rem] md:h-[6rem] w-[5rem] h-[5rem] flex items-center justify-center
             rounded-full bg-yellow-500 "
             >
               <FaPhoneVolume className="md:w-[4rem] md:h-[4rem] w-[3rem] h-[3rem] text-black" />
@@ -39,15 +39,15 @@ const Footer = () => {
               <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
                 Phone
               </h1>
-              <p className="text-[17px] w-[90% ] text-white opacity-60">
-                +92 321-9436596
-                <br /> 0300-726474
+              <p className="text-[17px] w-[100%] text-white opacity-60">
+                0300-726474<br/>
+                0321-9436596
               </p>
             </div>
           </div>
           <div className="flex items-center space-x-6">
             <div
-              className="md:w-[7rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center
+              className="md:w-[6rem] md:h-[6rem] w-[5rem] h-[5rem] flex items-center justify-center
             rounded-full bg-yellow-500 "
             >
               <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3rem] h-[3rem] text-black" />
@@ -56,9 +56,10 @@ const Footer = () => {
               <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
                 Email
               </h1>
-              <p className="text-[17px] w-[90%] text-white opacity-60">
-                goldensportseventsgse01
+              <p className="text-[17px] w-[100%] text-white opacity-60">
+                goldensportsevents
                 <br />
+                gse01
                 @gmail.com
               </p>
             </div>

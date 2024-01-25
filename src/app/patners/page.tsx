@@ -5,9 +5,6 @@ import Image from "next/image";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Sections from "@/components/Sections";
-import patner1 from "/Users/rasaf/Desktop/Resheph Inayat Work/gse/public/images/patner1.jpg"
-import patner3 from "/Users/rasaf/Desktop/Resheph Inayat Work/gse/public/images/patner3.jpg"
-import patner2 from "/Users/rasaf/Desktop/Resheph Inayat Work/gse/public/images/patner2.jpg"
 
 const images = [
   "/images/image2.jpg",
