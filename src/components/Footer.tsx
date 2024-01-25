@@ -3,6 +3,7 @@ import {
   EnvelopeIcon,
   PhoneArrowDownLeftIcon,
 } from "@heroicons/react/16/solid";
+import Link from "next/link";
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa";
 import { TfiLocationPin } from "react-icons/tfi";
@@ -40,7 +41,7 @@ const Footer = () => {
                 Phone
               </h1>
               <p className="text-[17px] w-[100%] text-white opacity-60">
-                0300-726474<br/>
+                0300-7264746<br/>
                 0321-9436596
               </p>
             </div>
@@ -52,6 +53,7 @@ const Footer = () => {
             >
               <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3rem] h-[3rem] text-black" />
             </div>
+              <Link href={'https://mail.google.com/mail/u/0/#inbox?compose=CllgCJlHFTNLlNRkcGkMGHHhfJpdBjrncVLqcKfQjRlFLVQhMrqQSWbQmHTplCVnkvqTnFFzqrL'} target="_blank" className="cursor-pointer">
             <div>
               <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
                 Email
@@ -63,6 +65,7 @@ const Footer = () => {
                 @gmail.com
               </p>
             </div>
+              </Link>
           </div>
         </div>
         <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between ">

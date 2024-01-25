@@ -87,12 +87,12 @@ const Slider = () => {
                   </Link>
                 </Section>
                 <Section>
-                  <Link href={"/tournaments/juniourgames"}>
+                  <Link href={"/tournaments/juniorgames"}>
                     <div>
                       <div className="bg-yellow-600 hover:bg-black hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
                         <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                          Juniour Games
+                          Junior Games
                         </h1>
                       </div>
                     </div>

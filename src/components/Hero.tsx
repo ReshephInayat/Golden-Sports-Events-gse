@@ -5,7 +5,8 @@ import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import { Element } from "react-scroll";
 import NavbarHome from "./NavbarHome";
-
+import Image from "next/image";
+import Section from "./Sections";
 const images = [
   "/images/image2.jpg",
   "/images/image3.jpg",
@@ -63,7 +64,22 @@ const Slider = () => {
               <div className="relative h-[80vh] ">
                 <Particle />
                 {/* Text container */}
-                <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center text-bold font-serif ">
+                <Section>
+                <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                >
+                <Image
+                  src={"/images/logo.png"}
+                  alt="logo"
+                  width={200}
+                  height={200}
+                  className="absolute transform -translate-x-1/2 -translate-y-1/2 top-60 md:top-64 left-1/2 md:w-60 w-36 md:h-60 h-36"
+                  ></Image>
+                  </motion.div>
+                  </Section>
+                <div className="absolute top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-center text-bold font-serif ">
                   <TextEffect />
                 </div>
               </div>

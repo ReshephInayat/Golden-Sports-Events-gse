@@ -21,7 +21,7 @@ const TextEffect = () => {
           1500,
           '"Unlock the Golden Path to Victory"',
           1000,
-          "CEO Muddassar Iqbal Butt",
+          "CEO M M Muddassar Iqbal",
           1500,
           "Tournaments",
           1000,
