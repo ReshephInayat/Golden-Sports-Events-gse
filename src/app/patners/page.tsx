@@ -82,8 +82,8 @@ const Slider = () => {
                       className="object-cover bg-yellow-600 px-6 py-6"
                       src={"/Images/patner1.jpg"}
                       alt="image3"
-                      width={400}
-                      height={400}
+                      width={300}
+                      height={300}
                     />
                     <h1 className="text-2xl text-center py-4">Maxim Events</h1>
                   
@@ -94,8 +94,8 @@ const Slider = () => {
                       className="object-cover bg-black px-6 py-6"
                       src={"/Images/patner3.jpg"}
                       alt="image1"
-                      width={400}
-                      height={400}
+                      width={300}
+                      height={300}
                     />
                     <h1 className="text-2xl text-center py-4 ">
                       Bangkok Soccer League
@@ -108,8 +108,8 @@ const Slider = () => {
                       className="object-cover bg-yellow-600 px-6 py-6"
                       src={"/Images/patner2.jpg"}
                       alt="image2"
-                      width={400}
-                      height={400}
+                      width={300}
+                      height={300}
                     />
                     <h1 className="text-2xl text-center py-4 ">PFA Bangkok</h1>
                   </Sections>
