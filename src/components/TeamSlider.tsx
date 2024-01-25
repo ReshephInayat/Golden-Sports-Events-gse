@@ -37,7 +37,7 @@ export default function TeamSlider() {
     >
       <TeamMembers
         image="/images/Ceo.png"
-        name="Mudassar Iqbal Butt"
+        name="M M Mudassar Iqbal"
         role="CEO"
         
       />
