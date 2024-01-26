@@ -73,112 +73,112 @@ const Slider = () => {
               <div className="flex justify-center flex-wrap gap-8 ">
                 <Image
                   className="object-cover"
-                  src={"/Images/TT1.png"}
+                  src={"/InternationalTours/TT1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T2.png"}
+                  src={"/InternationalTours/T2.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T3.png"}
+                  src={"/InternationalTours/T3.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T4.png"}
+                  src={"/InternationalTours/T4.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T5.png"}
+                  src={"/InternationalTours/T5.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T6.png"}
+                  src={"/InternationalTours/T6.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T7.png"}
+                  src={"/InternationalTours/T7.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T8.png"}
+                  src={"/InternationalTours/T8.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T9.png"}
+                  src={"/InternationalTours/T9.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.png"}
+                  src={"/InternationalTours/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
@@ -227,126 +227,126 @@ const Slider = () => {
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/7.png"}
+                  src={"/InternationalTours/7.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/8.png"}
+                  src={"/InternationalTours/8.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/9.png"}
+                  src={"/InternationalTours/9.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/10.png"}
+                  src={"/InternationalTours/10.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/11.png"}
+                  src={"/InternationalTours/11.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/12.png"}
+                  src={"/InternationalTours/12.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/13.png"}
+                  src={"/InternationalTours/13.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/14.png"}
+                  src={"/InternationalTours/14.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/15.png"}
+                  src={"/InternationalTours/15.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/16.png"}
+                  src={"/InternationalTours/16.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/17.png"}
+                  src={"/InternationalTours/17.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/18.png"}
+                  src={"/InternationalTours/18.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/19.png"}
+                  src={"/InternationalTours/19.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/20.png"}
+                  src={"/InternationalTours/20.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/21.png"}
+                  src={"/InternationalTours/21.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/22.png"}
+                  src={"/InternationalTours/22.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/23.png"}
+                  src={"/InternationalTours/23.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/24.png"}
+                  src={"/InternationalTours/24.png"}
                   alt="image"
                   width={300}
                   height={300}
