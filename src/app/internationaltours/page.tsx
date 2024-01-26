@@ -73,112 +73,112 @@ const Slider = () => {
               <div className="flex justify-center flex-wrap gap-8 ">
                 <Image
                   className="object-cover"
-                  src={"/Images/TT1.jpg"}
+                  src={"/Images/TT1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T1.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T2.jpg"}
+                  src={"/Images/T2.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T3.jpg"}
+                  src={"/Images/T3.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T4.jpg"}
+                  src={"/Images/T4.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T5.jpg"}
+                  src={"/Images/T5.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T6.jpg"}
+                  src={"/Images/T6.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T7.jpg"}
+                  src={"/Images/T7.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T8.jpg"}
+                  src={"/Images/T8.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T9.jpg"}
+                  src={"/Images/T9.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T10.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T11.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T12.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T13.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T14.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/Images/T15.jpg"}
+                  src={"/Images/T1.png"}
                   alt="image"
                   width={300}
                   height={300}
@@ -227,126 +227,126 @@ const Slider = () => {
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/7.jpg"}
+                  src={"/Images/7.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/8.jpg"}
+                  src={"/Images/8.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/9.jpg"}
+                  src={"/Images/9.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/10.jpg"}
+                  src={"/Images/10.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/11.jpg"}
+                  src={"/Images/11.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/12.jpg"}
+                  src={"/Images/12.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/13.jpg"}
+                  src={"/Images/13.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/14.jpg"}
+                  src={"/Images/14.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/15.jpg"}
+                  src={"/Images/15.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/16.jpg"}
+                  src={"/Images/16.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/17.jpg"}
+                  src={"/Images/17.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/18.jpg"}
+                  src={"/Images/18.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/19.jpg"}
+                  src={"/Images/19.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/20.jpg"}
+                  src={"/Images/20.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/21.jpg"}
+                  src={"/Images/21.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/22.jpg"}
+                  src={"/Images/22.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/23.jpg"}
+                  src={"/Images/23.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />
                 <Image
                   className="object-cover"
-                  src={"/Images/24.jpg"}
+                  src={"/Images/24.png"}
                   alt="image"
                   width={300}
                   height={300}
