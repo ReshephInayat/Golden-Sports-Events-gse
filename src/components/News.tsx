@@ -92,7 +92,7 @@ const Slider = () => {
                         Collaboration
                         </h1>
                         <p className="text-[25px]">
-                        Our Collab's with patners
+                        Our Collabs with patners
                         </p>
                       </div>
                     </div>
