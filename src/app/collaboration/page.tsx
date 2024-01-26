@@ -57,10 +57,10 @@ const Slider = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="  pt-[2rem] md:pt-[8rem] pb-[6rem] relative "
+              className="pt-[2rem] md:pt-[8rem] pb-[6rem] relative "
             >
               <div className="flex justify-center pb-8">
-                <Link href={`/${"tournaments"}`}>
+                <Link href={`/${"#news"}`}>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -75,7 +75,7 @@ const Slider = () => {
                 <div className="flex justify-center flex-wrap gap-8 ">
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/1.png"}
+                    src={"/CollabsImages/1.png"}
                     alt="image"
                     width={300}
                     height={400}
@@ -83,71 +83,69 @@ const Slider = () => {
 
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/2.png"}
+                    src={"/CollabsImages/2.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/3.png"}
+                    src={"/CollabsImages/3.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/4.png"}
+                    src={"/CollabsImages/4.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/5.png"}
+                    src={"/CollabsImages/5.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/6.png"}
+                    src={"/CollabsImages/6.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/7.png"}
+                    src={"/CollabsImages/7.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                   <Image
                     className="object-cover "
-                    src={"/JuniorImages/8.png"}
+                    src={"/CollabsImages/8.png"}
                     alt="image"
                     width={300}
-                    height={400}
+                    height={300}
                   />
                 </div>
               </Section>
               <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
-                <Link href={"https://www.maximevents.asia/"} target="_blank">
+                <Link href={"https://pfabangkok.com/"} target="_blank">
                   <Sections>
                     <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
                       Collaboration with
                     </h2>
                     <Image
                       className="object-cover bg-white px-6 py-6"
-                      src={"/images/colabroot.png"}
+                      src={"/patner2.jpg"}
                       alt="image3"
                       width={400}
                       height={400}
                     />
-                    <h1 className="text-2xl text-center py-4">
-                      Roots Future World School, Phase 6 DHA
-                    </h1>
+                    <h1 className="text-2xl text-center py-4">PFA Bangkok</h1>
                   </Sections>
                 </Link>
               </div>

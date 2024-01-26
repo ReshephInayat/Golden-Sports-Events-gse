@@ -58,164 +58,180 @@ const Slider = () => {
               exit={{ opacity: 0 }}
               className="  pt-[2rem] md:pt-[8rem] pb-[2rem] relative "
             >
-              <div className="flex justify-center pb-8">
-                <Link href={`/${"tournaments"}`}>
-                  {" "}
-                  <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0.5 }}
-                    className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full "
-                  >
-                    Back
-                  </motion.button>{" "}
-                </Link>
-              </div>
+              <Section>
+                <div className="flex justify-center pb-8">
+                  <Link href={`/${"tournaments"}`}>
+                    {" "}
+                    <motion.button
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0.5 }}
+                      className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full "
+                    >
+                      Back
+                    </motion.button>{" "}
+                  </Link>
+                </div>
 
+                <h1 className="text-4xl text-white text-center font-semibold mt-8 mb-4 ">
+                  Azadi Games{" "}
+                </h1>
+                <p className="text-center md:text-3xl text-white mb-2">
+                  → Cricket, Futsal, Dodge The Ball Ultimate Frizbee
+                </p>
+                <p className="text-center md:text-3xl text-white mb-2">
+                  → Ultimate Frizbee, Martial Arts
+                </p>
+                <p className="text-center md:text-3xl text-white mb-2">
+                  → Atheletics, Sports Photography
+                </p>
+              </Section>
 
-              <div className="flex justify-center flex-wrap gap-8 ">
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/1.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
+              <Section>
+                <div className="flex justify-center flex-wrap gap-8 ">
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/1.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
                   />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/2.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/2.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
                   />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/3.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/3.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
                   />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/4.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/4.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
                   />
-                
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/5.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/6.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/7.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/8.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/9.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/10.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/11.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/12.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/13.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/14.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/15.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/16.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/17.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/18.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/19.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/AzadiImages/20.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-              </div>
+
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/5.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/6.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/7.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/8.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/9.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/10.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/11.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/12.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/13.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/14.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/15.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/16.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/17.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/18.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/19.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/AzadiImages/20.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </Section>
             </motion.div>
           </AnimatePresence>
         </div>

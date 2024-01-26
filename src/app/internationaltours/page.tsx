@@ -5,6 +5,7 @@ import AboutEffect from "@/components/AboutEffext";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Image from "next/image";
+import Sections from "@/components/Sections";
 const images = [
   "/images/image2.jpg",
   "/images/image3.jpg",
@@ -58,8 +59,8 @@ const Slider = () => {
               exit={{ opacity: 0 }}
               className="  pt-[2rem] md:pt-[8rem] pb-[2rem] relative "
             >
-              <div className="flex justify-center pb-8">
-                <Link href={`/${"#events"}`}>
+              <div className="flex justify-center ">
+                <Link href={`/${"#news"}`}>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -70,287 +71,318 @@ const Slider = () => {
                   </motion.button>
                 </Link>
               </div>
-              <div className="flex justify-center flex-wrap gap-8 ">
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/TT1.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T1.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T2.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T3.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T4.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T5.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T6.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T7.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T8.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T9.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T10.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T11.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T12.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T13.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T14.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />{" "}
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/T15.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/1.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/2.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/3.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/4.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/5.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/6.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/7.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/8.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/9.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/10.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/11.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/12.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/13.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/14.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/15.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/16.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/17.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/18.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/19.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/20.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/21.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/22.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/23.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
-                <Image
-                  className="object-cover"
-                  src={"/InternationalTours/24.png"}
-                  alt="image"
-                  width={300}
-                  height={300}
-                />
+
+              <Sections>
+                <h1 className="text-4xl text-white text-center font-semibold mt-8 mb-4 ">
+                  International Schools Chamionship Kuala Lumpur, Malysia
+                </h1>
+                <p className="text-center md:text-3xl text-white mb-2">
+                  → Basketball U-14
+                </p>
+                <p className="text-center md:text-3xl text-white mb-4">
+                  → Football U-14
+                </p>
+
+                <div className="flex justify-center flex-wrap gap-8 ">
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/TT1.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T1.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T2.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T3.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T4.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T5.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T6.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T7.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T8.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T9.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T10.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T11.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T12.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T13.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T14.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />{" "}
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/T15.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/1.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/2.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/3.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/4.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/5.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/6.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/7.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/8.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/9.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/10.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/11.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/12.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/13.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/14.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/15.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/16.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/17.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/18.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/19.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/20.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/21.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/22.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/23.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover"
+                    src={"/InternationalTours/24.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </Sections>
+
+              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+                <Link href={"https://www.maximevents.asia/"} target="_blank">
+                  <Sections>
+                    <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
+                      Patners
+                    </h2>
+                    <Image
+                      className="object-cover bg-white px-6 py-6"
+                      src={"/patner1.jpg"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">Maxim Events</h1>
+                  </Sections>
+                </Link>
               </div>
             </motion.div>
           </AnimatePresence>

@@ -29,6 +29,9 @@ export default function MobileNav({ nav, closeNav }: Props) {
         <Link href={"#events"}>
           <div className="nav-effect-mobile">Events</div>
         </Link>
+        <Link href={"#news"}>
+          <div className="nav-effect-mobile">News/Collabs</div>
+        </Link>
         <Link href={"#team"}>
           <div className="nav-effect-mobile">Team</div>
         </Link>

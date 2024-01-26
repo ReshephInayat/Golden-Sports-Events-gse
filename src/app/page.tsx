@@ -4,6 +4,7 @@ import About from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
+import News from "@/components/News";
 
 export default function Homepage() {
   return (
@@ -20,6 +21,9 @@ export default function Homepage() {
           </div>
           <div className="relative z-[30]">
             <Events />
+          </div>
+          <div className="relative z-[30]">
+            <News />
           </div>
           <div className="relative z-[30]">
             <Team />
