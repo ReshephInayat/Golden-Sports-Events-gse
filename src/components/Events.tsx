@@ -86,7 +86,7 @@ const Slider = () => {
                   </Link>
                 </Sections>
                 <Sections>
-                  <Link href={"/internationaltours"}>
+                  <Link href={"/international"}>
                     <div>
                       <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
                         <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />

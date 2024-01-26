@@ -77,18 +77,18 @@ const Slider = () => {
                   Azadi Games{" "}
                 </h1>
                 <p className="text-center md:text-3xl text-white mb-2">
-                  → Cricket, Futsal, Dodge The Ball Ultimate Frizbee
+                  ● Cricket, Futsal, Dodge The Ball, Ultimate Frizbee
                 </p>
                 <p className="text-center md:text-3xl text-white mb-2">
-                  → Ultimate Frizbee, Martial Arts
+                ● Ultimate Frizbee, Martial Arts
                 </p>
                 <p className="text-center md:text-3xl text-white mb-2">
-                  → Atheletics, Sports Photography
+                ● Atheletics, Sports Photography
                 </p>
               </Section>
 
               <Section>
-                <div className="flex justify-center flex-wrap gap-8 ">
+                <div className="flex justify-center flex-wrap gap-8 mt-14">
                   <Image
                     className="object-cover"
                     src={"/AzadiImages/1.png"}
@@ -232,6 +232,102 @@ const Slider = () => {
                   />
                 </div>
               </Section>
+              {/* <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+                <Link href={"https://www.maximevents.asia/"} target="_blank">
+                  <Section>
+                    <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
+                      Patners
+                    </h2>
+                    <Image
+                      className="object-cover bg-white px-6 py-6"
+                      src={"/patner1.jpg"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">Maxim Events</h1>
+                  </Section>
+                </Link>
+              </div> */}
+              <Section>
+              <h2 className="text-4xl text-white text-center pt-10 pb-2 font-semibold">
+                      Patners
+                    </h2>
+              </Section>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white   ">
+               
+                  <Section>
+
+                    <Image
+                      className="object-cover bg-blue-400 px-6 py-6  w-96 h-64"
+                      src={"/patner6.png"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">Prime Steels Re-Rolling Mills</h1>
+                  </Section>
+                <Link href={"https://shopecs.com"} target="_blank">
+                  <Section>
+
+                    <Image
+                      className="object-cover bg-red-700 px-6 py-6 "
+                      src={"/patner4.jpg"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">ECS</h1>
+                  </Section>
+                </Link>
+                <Link href={"https://www.facebook.com/primebanaspati/"} target="_blank">
+                  <Section>
+
+                    <Image
+                      className="object-cover bg-green-900 px-6 py-6 w-96 h-64"
+                      src={"/patner5.png"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">Prime Banaspati</h1>
+                  </Section>
+                </Link>
+              </div>
+              <Section>
+                            <h2 className="text-4xl text-white text-center pt-10 pb-2 font-semibold">
+                      Coverage Patners
+                    </h2>
+              </Section>
+              <div className="md:flex justify-between w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white   ">
+                <Link href={"https://sama.pk/"} target="_blank">
+                  <Section>
+
+                    <Image
+                      className="object-cover bg-blue-950 px-6 py-6  w-96 h-64"
+                      src={"/covpatner1.png"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">Sama Newspaper</h1>
+                  </Section>
+
+                </Link>
+                <Link href={"https://www.city42.tv/"} target="_blank">
+                  <Section>
+
+                    <Image
+                      className="object-cover bg-blue-950 px-6 py-6 w-96 h-64"
+                      src={"/covpatner2.png"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">City 42</h1>
+                  </Section>
+                </Link>
+              </div>
             </motion.div>
           </AnimatePresence>
         </div>

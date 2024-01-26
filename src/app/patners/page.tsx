@@ -73,6 +73,8 @@ const Slider = () => {
                 </Link>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+                <Sections>
+                  
                 <Link href={"https://www.maximevents.asia/"} target="_blank">
                   <Image
                     className="object-cover bg-white px-6 py-6"
@@ -80,9 +82,10 @@ const Slider = () => {
                     alt="image3"
                     width={400}
                     height={400}
-                  />
+                    />
                   <h1 className="text-2xl text-center py-4">Maxim Events</h1>
                 </Link>
+                    </Sections>
                 <Link href={"https://www.bslclub.com/"} target="_blank">
                   <Sections>
                     <Image

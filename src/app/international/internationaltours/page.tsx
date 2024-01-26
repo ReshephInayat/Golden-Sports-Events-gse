@@ -60,7 +60,7 @@ const Slider = () => {
               className="  pt-[2rem] md:pt-[8rem] pb-[2rem] relative "
             >
               <div className="flex justify-center ">
-                <Link href={`/${"#news"}`}>
+                <Link href={`/${"international"}`}>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -77,10 +77,10 @@ const Slider = () => {
                   International Schools Chamionship Kuala Lumpur, Malysia
                 </h1>
                 <p className="text-center md:text-3xl text-white mb-2">
-                  → Basketball U-14
+                  ● Basketball U-14
                 </p>
                 <p className="text-center md:text-3xl text-white mb-4">
-                  → Football U-14
+                  ● Football U-14
                 </p>
 
                 <div className="flex justify-center flex-wrap gap-8 ">
@@ -367,7 +367,22 @@ const Slider = () => {
                 </div>
               </Sections>
 
-              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+              <div className="md:flex justify-between w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+                <Link href={"https://www.aitchison.edu.pk/"} target="_blank">
+                  <Sections>
+                    <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
+                        On Board
+                    </h2>
+                    <Image
+                      className="object-cover bg-yellow-500 px-6 py-6  h-72"
+                      src={"/patner7.png"}
+                      alt="image3"
+                      width={400}
+                      height={400}
+                    />
+                    <h1 className="text-2xl text-center py-4">Aitchison College</h1>
+                  </Sections>
+                </Link>
                 <Link href={"https://www.maximevents.asia/"} target="_blank">
                   <Sections>
                     <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
