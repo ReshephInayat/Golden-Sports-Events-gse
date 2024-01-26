@@ -143,42 +143,42 @@ const Slider = () => {
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/T1.png"}
+                  src={"/InternationalTours/T10.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/T1.png"}
+                  src={"/InternationalTours/T11.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/T1.png"}
+                  src={"/InternationalTours/T12.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/T1.png"}
+                  src={"/InternationalTours/T13.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/T1.png"}
+                  src={"/InternationalTours/T14.png"}
                   alt="image"
                   width={300}
                   height={300}
                 />{" "}
                 <Image
                   className="object-cover"
-                  src={"/InternationalTours/T1.png"}
+                  src={"/InternationalTours/T15.png"}
                   alt="image"
                   width={300}
                   height={300}
