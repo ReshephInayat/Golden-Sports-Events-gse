@@ -97,7 +97,7 @@ const Slider = () => {
                           International Tours
                         </h1>
                         <p className="text-[25px]">
-                          We arrange international for schools & clubs
+                          We arrange international sports tours for schools & clubs
                           
                         </p>
                       </div>
