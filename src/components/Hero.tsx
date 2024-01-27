@@ -12,8 +12,8 @@ const images = [
   "/images/image2.jpg",
   "/images/image1.jpg",
   "/images/image3.jpg",
-  "/images/image1.jpg",
-  "/images/image5.jpg",
+  // "/images/image1.jpg",
+  // "/images/image5.jpg",
   // "/images/image1.jpg",
   // "/images/image4.jpg",
 
@@ -66,6 +66,7 @@ const Slider = () => {
               }}
             />
             <div>
+              {/* <div className="bg-gray-300 opacity-25  h-screen w-screen absolute "></div> */}
               <div className="relative h-[80vh] ">
                 <Particle />
                 {/* Text container */}
