@@ -6,10 +6,14 @@ import Link from "next/link";
 import Image from "next/image";
 import Section from "@/components/Sections";
 const images = [
+  "/images/image1.jpg",
   "/images/image2.jpg",
+  "/images/image1.jpg",
   "/images/image3.jpg",
-  "/images/image2.jpg",
-  "/images/image3.jpg",
+  "/images/image1.jpg",
+  "/images/image5.jpg",
+  // "/images/image1.jpg",
+  // "/images/image4.jpg",
 ];
 
 const Slider = () => {

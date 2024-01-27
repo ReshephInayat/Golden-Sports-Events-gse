@@ -8,11 +8,16 @@ import NavbarHome from "./NavbarHome";
 import Image from "next/image";
 import Section from "./Sections";
 const images = [
+  "/images/image1.jpg",
   "/images/image2.jpg",
+  "/images/image1.jpg",
   "/images/image3.jpg",
-  "/images/image4.jpg",
-  "/images/image2.jpg",
-  "/images/image3.jpg",
+  "/images/image1.jpg",
+  "/images/image5.jpg",
+  // "/images/image1.jpg",
+  // "/images/image4.jpg",
+
+// 
 ];
 
 const fadeInVariants = {
@@ -48,7 +53,7 @@ const Slider = () => {
               key={index}
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              exit={{ opacity: 0.5 }}
+              exit={{ opacity: 0.2 }}
               style={{
                 position: "absolute",
                 top: 0,
