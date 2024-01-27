@@ -89,7 +89,7 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-10">
             <p className="text-[18px] text-white opacity-20">Follow Us on → </p>
-            <Link href={'https://www.instagram.com/goldensportseventsgse?igsh=d29xOHR3dTZvZW5z'}>
+            <Link href={'https://www.instagram.com/goldensportseventsgse?igsh=d29xOHR3dTZvZW5z'} target="_blank">
             <p><BsInstagram className="text-3xl text-white" title="Instagram" /></p>
             </Link>
           </div>
