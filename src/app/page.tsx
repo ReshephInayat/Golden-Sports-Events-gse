@@ -1,13 +1,25 @@
-import React, { useState } from "react";
+"use client";
+import React, { useEffect, useState } from "react";
 import Hero from "@/components/Hero";
 import About from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 import News from "@/components/News";
-
+import Loading from "./loading";
 export default function Homepage() {
+  const [isLoading, setIsLoading] = useState(true);
+  useEffect(() => {
+    // Simulate an API call
+    setTimeout(() => {
+      setIsLoading(false);
+    }, 4000);
+  }, []);
+  if (isLoading) {
+    return <Loading />;
+  }
   return (
+    
     <>
       <div className="overflow-x-hidden">
         <div>
