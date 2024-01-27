@@ -1,13 +1,17 @@
 "use client";
 import {
   EnvelopeIcon,
-  PhoneArrowDownLeftIcon,
 } from "@heroicons/react/16/solid";
-import Link from "next/link";
 import React from "react";
 import { FaPhoneVolume } from "react-icons/fa";
 import { TfiLocationPin } from "react-icons/tfi";
 import { Element } from "react-scroll";
+
+// const openGmail = () => {
+//   window.location.href = "mailto:rasafinayat@gmail.com";
+// };
+const recipientEmail = "goldensportseventsgse01@gmail.com"
+
 const Footer = () => {
   return (
     <Element name="#contact">
@@ -42,9 +46,13 @@ const Footer = () => {
                 Phone
               </h1>
               <p className="text-[17px] w-[100%] text-white opacity-60">
+              <a href="tel:+923007264746" title="Click to Contact Golden Sports Events">
                 0300-7264746
+              </a>
                 <br />
+                <a href="tel:+923219436596" title="Click to Contact Golden Sports Events">
                 0321-9436596
+                </a>
               </p>
             </div>
           </div>
@@ -55,7 +63,8 @@ const Footer = () => {
             >
               <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3rem] h-[3rem] text-black" />
             </div>
-            {/* <a href=""></a> */}
+            <a href={`mailto:${recipientEmail}` }title="Click to Email Golden Sports Events" target="_blank">
+              
             <div>
               <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
                 Email
@@ -66,6 +75,10 @@ const Footer = () => {
                 gse01@gmail.com
               </p>
             </div>
+</a>
+            
+          
+            
           </div>
         </div>
         <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between ">
