@@ -1,7 +1,5 @@
 "use client";
-import {
-  EnvelopeIcon,
-} from "@heroicons/react/16/solid";
+import { EnvelopeIcon } from "@heroicons/react/16/solid";
 import Link from "next/link";
 import React from "react";
 import { BsInstagram } from "react-icons/bs";
@@ -12,7 +10,7 @@ import { Element } from "react-scroll";
 // const openGmail = () => {
 //   window.location.href = "mailto:rasafinayat@gmail.com";
 // };
-const recipientEmail = "goldensportseventsgse01@gmail.com"
+const recipientEmail = "goldensportseventsgse01@gmail.com";
 
 const Footer = () => {
   return (
@@ -48,12 +46,18 @@ const Footer = () => {
                 Phone
               </h1>
               <p className="text-[17px] w-[100%] text-white opacity-60">
-              <a href="tel:03007264746" title="Click to Contact Golden Sports Events">
-                0300-7264746
-              </a>
+                <a
+                  href="tel:03007264746"
+                  title="Click to Contact Golden Sports Events"
+                >
+                  0300-7264746
+                </a>
                 <br />
-                <a href="tel:03219436596" title="Click to Contact Golden Sports Events">
-                0321-9436596
+                <a
+                  href="tel:03219436596"
+                  title="Click to Contact Golden Sports Events"
+                >
+                  0321-9436596
                 </a>
               </p>
             </div>
@@ -65,22 +69,22 @@ const Footer = () => {
             >
               <EnvelopeIcon className="md:w-[4rem] md:h-[4rem] w-[3rem] h-[3rem] text-black" />
             </div>
-            <a href={`mailto:${recipientEmail}` }title="Click to Email Golden Sports Events" target="_blank" >
-              
-            <div>
-              <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
-                Email
-              </h1>
-              <p className="text-[17px] w-[100%] text-white opacity-60">
-                goldensportsevents
-                <br />
-                gse01@gmail.com
-              </p>
-            </div>
-</a>
-            
-          
-            
+            <a
+              href={`mailto:${recipientEmail}`}
+              title="Click to Email Golden Sports Events"
+              target="_blank"
+            >
+              <div>
+                <h1 className="text-[25px] mb-[0.2rem] font-semibold text-[white] ">
+                  Email
+                </h1>
+                <p className="text-[17px] w-[100%] text-white opacity-60">
+                  goldensportsevents
+                  <br />
+                  gse01@gmail.com
+                </p>
+              </div>
+            </a>
           </div>
         </div>
         <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between ">
@@ -89,8 +93,18 @@ const Footer = () => {
           </div>
           <div className="flex items-center space-x-10">
             <p className="text-[18px] text-white opacity-20">Follow Us on → </p>
-            <Link href={'https://www.instagram.com/goldensportseventsgse?igsh=d29xOHR3dTZvZW5z'} target="_blank">
-            <p><BsInstagram className="text-3xl text-white" title="Instagram" /></p>
+            <Link
+              href={
+                "https://www.instagram.com/goldensportseventsgse?igsh=d29xOHR3dTZvZW5z"
+              }
+              target="_blank"
+            >
+              <p>
+                <BsInstagram
+                  className="text-3xl text-white"
+                  title="Instagram"
+                />
+              </p>
             </Link>
           </div>
           <div className="flex items-center "></div>
