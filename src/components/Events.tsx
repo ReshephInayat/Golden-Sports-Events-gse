@@ -52,6 +52,12 @@ const Slider = () => {
         <div
           id="events"
           className="relative w-full h-screen overflow-hidden"
+          style={{
+            position: "relative",
+            width: "100%",
+            height: "100%",
+            overflow: "hidden",
+          }}
         >
           <AnimatePresence exitBeforeEnter={false}>
             <motion.div

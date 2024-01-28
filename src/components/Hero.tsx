@@ -36,6 +36,7 @@ const Slider: React.FC = () => {
         <div
           id="#home"
           className="relative w-full h-screen overflow-hidden"
+          
         >
           <AnimatePresence exitBeforeEnter={false}>
             <motion.div
