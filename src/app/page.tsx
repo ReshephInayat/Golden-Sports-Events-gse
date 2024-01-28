@@ -5,10 +5,31 @@ import Events from "@/components/Events";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
 import News from "@/components/News";
+// import Loading from "@/components/Loader";
+import { useEffect, useState } from "react";
 // import Loading from "./loading";
 export default function Homepage() {
 
-   
+  // const [isLoading, setIsLoading] = useState<any>(true);
+
+  // useEffect(() => {
+  //   // Simulate an API call
+  //   setTimeout(() => {
+  //     if (location.pathname===`/${''}`) {
+        
+  //       setIsLoading(false);
+  //     }
+  //     }, 3000);
+  // }, []);
+  
+
+
+  
+
+  // if (isLoading) {
+  //   return <Loading/>
+  // }
+ 
    return (
      
      <>

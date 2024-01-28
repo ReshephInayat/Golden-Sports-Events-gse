@@ -16,6 +16,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+      <link rel="preload" href="/images/image1.jpg" as="image"/>
+  <link rel="preload" href="/images/image2.jpg" as="image"/>
+  <link rel="preload" href="/images/image3.jpg" as="image"/>
+      </head>
       <body className={inter.className}>
         {children}
       </body>

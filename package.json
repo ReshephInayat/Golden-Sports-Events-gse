@@ -30,6 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-lazyload": "^3.2.3",
     "@types/react-scroll": "^1.8.10",
     "autoprefixer": "^10.0.1",
     "eslint": "^8",
