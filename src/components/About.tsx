@@ -1,16 +1,31 @@
-"use client";
-import { AnimatePresence, motion, useInView } from "framer-motion";
 import React, { useEffect, useState } from "react";
+import { AnimatePresence, motion } from "framer-motion";
 import AboutEffect from "./AboutEffext";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Section from "./Sections";
-import {
-  ChevronDoubleUpIcon,
-  CodeBracketSquareIcon,
-} from "@heroicons/react/16/solid";
+import { ChevronDoubleUpIcon } from "@heroicons/react/16/solid";
+// import LazyImage from "./LazyImage"; // Import LazyImage component
 
-const images = [
+
+const LazyImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
+  const [loadedSrc, setLoadedSrc] = useState<string | null>(null);
+
+  useEffect(() => {
+    const image = new Image();
+    image.onload = () => {
+      setLoadedSrc(src);
+    };
+    image.src = src;
+  }, [src]);
+
+  return <img src={loadedSrc ?? ''} alt={alt} />;
+};
+
+
+
+
+const images: string[] = [
   "/images/image1.jpg",
   "/images/image2.jpg",
   "/images/image1.jpg",
@@ -37,12 +52,7 @@ const Slider = () => {
       <Element name="#about">
         <div
           id="about"
-          style={{
-            position: "relative",
-            width: "100%",
-            height: "100%",
-            overflow: "hidden",
-          }}
+          className="relative w-full h-screen overflow-hidden"
         >
           <AnimatePresence exitBeforeEnter={false}>
             <motion.div
@@ -50,72 +60,57 @@ const Slider = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              style={{
-                position: "absolute",
-                top: 0,
-                left: 0,
-                width: "100%",
-                height: "100%",
-                backgroundImage: `url(${images[index]})`,
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-              }}
+              className="absolute top-0 left-0 w-full h-full bg-cover bg-center"
+              style={{ backgroundImage: `url(${images[index]})` }}
             />
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0.5 }}
-              className="  pt-[4rem] md:pt-[8rem] pb-[10rem] relative "
+              className="pt-[4rem] md:pt-[8rem] pb-[10rem] relative"
             >
-              <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
+              <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10">
                 <AboutEffect />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white ">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white">
                 <Section>
-                  <Link href={"/ourmission"}>
-                    <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                          Our Mission
-                        </h1>
-                        <p className="text-[25px]">
-                          our Mission Is To Inspire And Unite People Through The
-                          Power Of Sports
-                        </p>
-                      </div>
+                  <Link href="/ourmission">
+                    <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]">
+                      <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                        Our Mission
+                      </h1>
+                      <p className="text-[25px]">
+                        Our Mission Is To Inspire And Unite People Through The
+                        Power Of Sports
+                      </p>
                     </div>
                   </Link>
                 </Section>
                 <Section>
-                  <Link href={"/aboutus"}>
-                    <div>
-                      <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                          About Us
-                        </h1>
-                        <p className="text-[25px]">
-                          We pride ourselves on delivering exceptional sports
-                          experiences
-                        </p>
-                      </div>
+                  <Link href="/aboutus">
+                    <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]">
+                      <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                        About Us
+                      </h1>
+                      <p className="text-[25px]">
+                        We pride ourselves on delivering exceptional sports
+                        experiences
+                      </p>
                     </div>
                   </Link>
                 </Section>
                 <Section>
-                  <Link href={"/whatwedo"}>
-                    <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a]  hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                          What We Do
-                        </h1>
-                        <p className="text-[25px]">
-                          We organize sports events And international sports
-                          tours
-                        </p>
-                      </div>
+                  <Link href="/whatwedo">
+                    <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem]">
+                      <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                        What We Do
+                      </h1>
+                      <p className="text-[25px]">
+                        We organize sports events And international sports tours
+                      </p>
                     </div>
                   </Link>
                 </Section>
