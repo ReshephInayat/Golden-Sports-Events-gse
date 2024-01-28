@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import { Rajdhani } from "next/font/google";
 import "./globals.css";
 
-const inter = Rajdhani({ weight: "400", subsets: ["latin"] });
+const inter = Rajdhani({ weight: "400", subsets: ["latin"], display: "swap"});
 
 export const metadata: Metadata = {
   title: "Golden Sports Events",
