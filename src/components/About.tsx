@@ -9,6 +9,7 @@ import {
   ChevronDoubleUpIcon,
   CodeBracketSquareIcon,
 } from "@heroicons/react/16/solid";
+import Head from "next/head";
 
 const images = [
   "/images/image1.jpg",
@@ -34,6 +35,16 @@ const Slider = () => {
 
   return (
     <>
+        <Head>
+        <title>Golden Sports Events</title>
+        <meta name="description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta property="og:title" content="Golden Sports Events " />
+        <meta property="og:description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta property="og:image" content="/images/logo.png" />
+        <meta name="twitter:card" content="/images/logo.png" />
+        <meta name="twitter:description" content="Unlock The Golden Path To Victory"></meta>
+        <link rel="canonical" href="https://goldensportsevents.com/" />
+      </Head>
       <Element name="#about">
         <div
           id="about"

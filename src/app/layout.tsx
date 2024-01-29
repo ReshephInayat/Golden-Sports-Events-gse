@@ -7,6 +7,7 @@ const inter = Rajdhani({ weight: "400", subsets: ["latin"], display: "swap"});
 export const metadata: Metadata = {
   title: "Golden Sports Events",
   description: "Unlock the Golden Path to Victory",
+  
 };
 
 export default function RootLayout({
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+      <link rel="canonical" href="https://goldensportsevents.com/" />
       <link rel="preload" href="/images/image1.jpg" as="image"/>
   <link rel="preload" href="/images/image2.jpg" as="image"/>
   <link rel="preload" href="/images/image3.jpg" as="image"/>
