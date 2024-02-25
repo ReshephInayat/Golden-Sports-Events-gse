@@ -42,7 +42,7 @@ const Navbar: React.FC<Props> = ({ openNav }) => {
         </ScrollLink>
 
         <ScrollLink to="#contact" smooth={true} duration={500}>
-          <div className="nav-effect">Contacts Us</div>
+          <div className="nav-effect">Contact Us</div>
         </ScrollLink>
 
         <div onClick={openNav}>

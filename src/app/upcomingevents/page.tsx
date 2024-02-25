@@ -57,7 +57,7 @@ const Slider = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="  pt-[1rem] md:pt-[8rem] pb-[2rem] relative "
+                className="  pt-[3rem] md:pt-[rem] pb-[rem] relative "
               >
                 <div className="flex justify-center pb-8 pt-2">
                   <Link href={`/${"#news"}`}>

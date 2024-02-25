@@ -51,7 +51,7 @@ const Slider = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="  pt-[4rem] md:pt-[8rem] pb-[10rem] relative "
+              className="  pt-[2rem] md:pt-[rem] pb-[10rem] relative "
             >
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <TeamEffect />
