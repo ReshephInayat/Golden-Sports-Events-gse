@@ -64,24 +64,84 @@ const Slider = () => {
               className="pt-[2rem] md:pt-[8rem] pb-[6rem] relative "
             >
               <div className="flex justify-center pb-8">
-                <Link href={`/${"#news"}`}>
+                <Link href={`/${"collaboration"}`}>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     exit={{ opacity: 0.5 }}
-                    className="py-2 px-4 text-lg bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full"
+                    className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full"
                   >
                     Back
                   </motion.button>
                 </Link>
               </div>
+              <Section>
+                <div className="flex justify-center flex-wrap gap-8 ">
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/1.png"}
+                    alt="image"
+                    width={300}
+                    height={400}
+                  />
 
-              <div className=" flex flex-col md:flex-row  justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
-                <Link href={"/collaboration/pfabangkok"}>
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/2.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/3.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/4.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/5.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/6.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/7.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                  <Image
+                    className="object-cover "
+                    src={"/CollabsImages/8.png"}
+                    alt="image"
+                    width={300}
+                    height={300}
+                  />
+                </div>
+              </Section>
+              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+                <Link href={"https://pfabangkok.com/"} target="_blank">
                   <Sections>
-                    {/* <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
+                    <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
                       Collaboration with
-                    </h2> */}
+                    </h2>
                     <Image
                       className="object-cover bg-white px-6 py-6"
                       src={"/patner2.jpg"}
@@ -90,18 +150,6 @@ const Slider = () => {
                       height={400}
                     />
                     <h1 className="text-2xl text-center py-4">PFA Bangkok</h1>
-                  </Sections>
-                </Link>
-                <Link href={"/collaboration/rlfa"}>
-                  <Sections>
-                    <Image
-                      className="object-cover bg-white px-6 py-6 w-[400px]"
-                      src={"/patner9.png"}
-                      alt="image3"
-                      width={300}
-                      height={100}
-                    />
-                    <h1 className="text-2xl text-center py-4">RLFA</h1>
                   </Sections>
                 </Link>
               </div>

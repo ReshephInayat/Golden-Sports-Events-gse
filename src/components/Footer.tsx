@@ -10,7 +10,7 @@ import { Element } from "react-scroll";
 // const openGmail = () => {
 //   window.location.href = "mailto:rasafinayat@gmail.com";
 // };
-const recipientEmail = "goldensportseventsgse01@gmail.com";
+const recipientEmail = "goldensportsevents.official@gmail.com";
 
 const Footer = () => {
   return (
@@ -79,20 +79,20 @@ const Footer = () => {
                   Email
                 </h1>
                 <p className="text-[17px] w-[100%] text-white opacity-60">
-                  goldensportsevents
+                  goldensportsevents.
                   <br />
-                  gse01@gmail.com
+                  official@gmail.com
                 </p>
               </div>
             </a>
           </div>
         </div>
         <div className="w-[80%] mt-[2rem] mx-auto grid grid-cols-1 md:grid-cols-2 items-center justify-between ">
-          <div className="text-[18px] mb-[2rem] md:mb-0 text-white opacity-20 ">
+          <div className="text-[18px] mb-[2rem] md:mb-0 text-white opacity-40 ">
             Golden Sports Events | All Rights Reserved
           </div>
           <div className="flex items-center space-x-10">
-            <p className="text-[18px] text-white opacity-20">Follow Us on → </p>
+            <p className="text-[18px] text-white opacity-40">Follow Us on → </p>
             <Link
               href={
                 "https://www.instagram.com/goldensportseventsgse?igsh=d29xOHR3dTZvZW5z"
