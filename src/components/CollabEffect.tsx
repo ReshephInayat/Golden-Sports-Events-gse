@@ -18,19 +18,19 @@ const NewsEffect = () => {
       <TypeAnimation
         sequence={[
           1500,
-          "News & Collab's ",
+          "Collab's ",
           1500,
           "   ",
           1000,
-          "News & Collab's",
+          "Collab's",
           1500,
           "  ",
           1000,
-          "News & Collab's",
+          "Collab's",
           1500,
           "   ",
           1000,
-          "News & Collab's",
+          "Collab's",
           1500,
         ]}
         speed={30}

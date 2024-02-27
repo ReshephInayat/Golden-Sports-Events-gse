@@ -4,7 +4,7 @@ import About from "@/components/About";
 import Events from "@/components/Events";
 import Team from "@/components/Team";
 import Footer from "@/components/Footer";
-import News from "@/components/News";
+import News from "@/components/Collabs";
 // import { useEffect, useState, } from "react";
 // import { useLocation } from "react-router-dom";
 // import Loading from "@/components/Loader";

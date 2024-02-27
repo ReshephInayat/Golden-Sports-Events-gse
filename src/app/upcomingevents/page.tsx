@@ -60,7 +60,7 @@ const Slider = () => {
                 className="  pt-[3rem] md:pt-[rem] pb-[rem] relative "
               >
                 <div className="flex justify-center pb-8 pt-2">
-                  <Link href={`/${"#news"}`}>
+                  <Link href={`/${"#events"}`}>
                     {" "}
                     <motion.button
                       initial={{ opacity: 0 }}
@@ -79,7 +79,7 @@ const Slider = () => {
                   {" "}
                   National
                 </h2>
-                <p className="text-center md:text-2xl text-white">
+                <p className="text-center md:text-2xl  text-white">
                   → Throwball Campions Girls
                 </p>
                 <p className="text-center md:text-2xl text-white">
@@ -99,6 +99,9 @@ const Slider = () => {
                 </p>
                 <p className="text-center md:text-2xl text-white">
                   → KLI Football Championship
+                </p>
+                <p className="text-center md:text-2xl text-white">
+                  →GOC gulf open cup Dubai, UAE
                 </p>
               </motion.div>
             </Section>

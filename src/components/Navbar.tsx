@@ -29,12 +29,12 @@ const Navbar: React.FC<Props> = ({ openNav }) => {
         </ScrollLink>
 
         <ScrollLink to="#events" smooth={true} duration={500}>
-          <div className="nav-effect">Events</div>
+          <div className="nav-effect">Events / News</div>
         </ScrollLink>
 
              
         <ScrollLink to="#news" smooth={true} duration={500}>
-          <div className="nav-effect">News / Collabs</div>
+          <div className="nav-effect">Collabs</div>
         </ScrollLink>
       
         <ScrollLink to="#team" smooth={true} duration={500}>

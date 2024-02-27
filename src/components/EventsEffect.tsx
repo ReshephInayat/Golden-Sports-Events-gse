@@ -18,19 +18,19 @@ const EventEffect = () => {
       <TypeAnimation
         sequence={[
           1500,
-          "Events ",
+          "Events & News ",
           1500,
           "   ",
           1000,
-          "Events",
+          "Events& News",
           1500,
           "  ",
           1000,
-          "Events",
+          "Events & News",
           1500,
           "   ",
           1000,
-          "Events",
+          "Events & News",
           1500,
         ]}
         speed={30}

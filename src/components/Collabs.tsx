@@ -8,7 +8,7 @@ import {
   CodeBracketSquareIcon,
 } from "@heroicons/react/16/solid";
 import Sections from "./Sections";
-import NewsEffect from "./NewsEffect";
+import NewsEffect from "./CollabEffect";
 import Head from "next/head";
 
 const images = [
@@ -35,14 +35,23 @@ const Slider = () => {
 
   return (
     <>
-        <Head>
+      <Head>
         <title>Golden Sports Events</title>
-        <meta name="description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          name="description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:title" content="Golden Sports Events " />
-        <meta property="og:description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          property="og:description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:image" content="/images/logo.png" />
         <meta name="twitter:card" content="/images/logo.png" />
-        <meta name="twitter:description" content="Unlock The Golden Path To Victory"></meta>
+        <meta
+          name="twitter:description"
+          content="Unlock The Golden Path To Victory"
+        ></meta>
         <link rel="canonical" href="https://goldensportsevents.com/" />
       </Head>
       <Element name="#news">
@@ -79,10 +88,10 @@ const Slider = () => {
               className="  pt-[4rem] md:pt-[8rem] pb-[10rem] relative "
             >
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
-                <NewsEffect/>
+                <NewsEffect />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white ">
-                <Sections>
+              <div className="grid grid-cols-1 justify-center w-[80%] md:w-[50%]  mx-auto items-center  mt-[2rem] text-white ">
+                {/* <Sections>
                   <Link href={"/upcomingevents"}>
                     <div>
                       <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
@@ -96,23 +105,20 @@ const Slider = () => {
                       </div>
                     </div>
                   </Link>
-                </Sections>
+                </Sections> */}
                 <Sections>
                   <Link href={"/collaboration"}>
                     <div>
                       <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
                         <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                        Collaboration
+                          Collaboration
                         </h1>
-                        <p className="text-[25px]">
-                        Our Collabs with patners
-                        </p>
+                        <p className="text-[25px]">Our Collabs with patners</p>
                       </div>
                     </div>
                   </Link>
                 </Sections>
-               
               </div>
             </motion.div>
           </AnimatePresence>

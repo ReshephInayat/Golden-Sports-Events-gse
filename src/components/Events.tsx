@@ -36,14 +36,23 @@ const Slider = () => {
 
   return (
     <>
-        <Head>
+      <Head>
         <title>Golden Sports Events</title>
-        <meta name="description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          name="description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:title" content="Golden Sports Events " />
-        <meta property="og:description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          property="og:description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:image" content="/images/logo.png" />
         <meta name="twitter:card" content="/images/logo.png" />
-        <meta name="twitter:description" content="Unlock The Golden Path To Victory"></meta>
+        <meta
+          name="twitter:description"
+          content="Unlock The Golden Path To Victory"
+        ></meta>
         <link rel="canonical" href="https://goldensportsevents.com/" />
       </Head>
       <Element name="#events">
@@ -108,24 +117,25 @@ const Slider = () => {
                           International Tours
                         </h1>
                         <p className="text-[25px]">
-                          We arrange international sports tours for schools & clubs
-                          
+                          We arrange international sports tours for schools &
+                          clubs
                         </p>
                       </div>
                     </div>
                   </Link>
                 </Sections>
                 <Sections>
-                  <Link href={"/patners"}>
+                  <Link href={"/upcomingevents"}>
                     <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
+                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem] py-16">
                         <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                          Patnership
+                          News
                         </h1>
                         <p className="text-[25px]">
-                          Partnership where shared goals create lasting mutual
-                          achievements
+                          {/* Partnership where shared goals create lasting mutual
+                          achievements */}
+                          Upcoming Events
                         </p>
                       </div>
                     </div>

@@ -64,7 +64,7 @@ const Slider = () => {
               className="pt-[2rem] md:pt-[8rem] pb-[6rem] relative "
             >
               <div className="flex justify-center pb-8">
-                <Link href={`/${"collaboration"}`}>
+                <Link href={`/${"collaboration/international"}`}>
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
