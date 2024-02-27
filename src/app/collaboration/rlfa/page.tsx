@@ -77,13 +77,14 @@ const Slider = () => {
               </div>
               <Section>
                 <h1 className="text-white text-center text-xl md:text-2xl font-semibold p-5 bg-black bg-opacity-60">
-                  Embarking on a journey of excellence with GSE x RLFA
+                  {/* Embarking on a journey of excellence with GSE x RLFA
                   collaboration. ⚽️✨ Stay synced for thrilling updates and
                   unforgettable moments! #GSExRLFA #FootballCollaboration
-                  #SoccerJourney #lahore #islamabad #karachi
+                  #SoccerJourney #lahore #islamabad #karachi */}
+                                  In Process.....
                 </h1>
               </Section>
-              <Section>
+              {/* <Section>
                 <div className="flex flex-col justify-center items-center md:flex-row mt-10  md:border-8 border-solid border-white">
                   <video
                     src="\video.mp4"
@@ -127,7 +128,7 @@ const Slider = () => {
                     muted
                   ></video>
                 </div>
-              </Section>
+              </Section> */}
               <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
                 <Link
                   href={"https://www.instagram.com/reallahorefc/?hl=en"}
