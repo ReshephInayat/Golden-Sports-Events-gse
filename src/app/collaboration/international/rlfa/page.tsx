@@ -77,11 +77,7 @@ const Slider = () => {
               </div>
               <Section>
                 <h1 className="text-white text-center text-xl md:text-2xl font-semibold p-5 bg-black bg-opacity-60">
-                  {/* Embarking on a journey of excellence with GSE x RLFA
-                  collaboration. ⚽️✨ Stay synced for thrilling updates and
-                  unforgettable moments! #GSExRLFA #FootballCollaboration
-                  #SoccerJourney #lahore #islamabad #karachi */}
-                  Get ready to witness the fusion of passion and precision as GSE and RLFA unite forces on the field. ⚽️🌟 Together we are crafting a legacy of greatness where every match is a canvas for unforgettable moments. Stay tuned for the electrifying updates as we redefine excellence in football. This collaboration is not just about winning games it is about inspiring a generation and shaping the future of the beautiful game. Strap in for a thrilling ride filled with heart-stopping goals jaw-dropping saves and the unwavering determination to soar to new heights.
+                  Get ready to witness the fusion of passion and precision as GSE and RLFA unite forces on the field. Together we are crafting a legacy of greatness where every match is a canvas for unforgettable moments. Stay tuned for the electrifying updates as we redefine excellence in football. This collaboration is not just about winning games it is about inspiring a generation and shaping the future of the beautiful game.
                 </h1>
               </Section>
               {/* <Section>
