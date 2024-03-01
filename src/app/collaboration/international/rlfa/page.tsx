@@ -81,7 +81,7 @@ const Slider = () => {
                   collaboration. ⚽️✨ Stay synced for thrilling updates and
                   unforgettable moments! #GSExRLFA #FootballCollaboration
                   #SoccerJourney #lahore #islamabad #karachi */}
-                  In Process.....
+                  Get ready to witness the fusion of passion and precision as GSE and RLFA unite forces on the field. ⚽️🌟 Together, we're crafting a legacy of greatness, where every match is a canvas for unforgettable moments. Stay tuned for the electrifying updates, as we redefine excellence in football. This collaboration is not just about winning games; it's about inspiring a generation and shaping the future of the beautiful game. Strap in for a thrilling ride filled with heart-stopping goals, jaw-dropping saves, and the unwavering determination to soar to new heights. Are you ready to be a part of history in the making
                 </h1>
               </Section>
               {/* <Section>

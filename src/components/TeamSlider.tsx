@@ -33,13 +33,11 @@ export default function TeamSlider() {
       infinite
       responsive={responsive}
       itemClass="item"
-      
     >
       <TeamMembers
         image="/images/Ceo.png"
         name="M M Mudassar Iqbal"
         role="CEO"
-        
       />
       <TeamMembers
         image="/images/logo.png"
@@ -49,7 +47,7 @@ export default function TeamSlider() {
       <TeamMembers
         image="/images/logo.png"
         name="Umar Jan"
-        role="Director Media & news"
+        role="Director Media & Marketing"
       />
       <TeamMembers
         image="/images/logo.png"
