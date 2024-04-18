@@ -42,17 +42,17 @@ export default function TeamSlider() {
       <TeamMembers
         image="/images/logo.png"
         name="Asmaa Usman"
-        role="Director operational"
+        role="Director Operations"
       />
       <TeamMembers
-        image="/images/logo.png"
-        name="Umar Jan"
+        image="/UmarJan.jpg"
+        name="Rana M Umar Jan"
         role="Director Media & Marketing"
       />
       <TeamMembers
-        image="/images/logo.png"
+        image="/KamilSaeed.jpg"
         name="Kamil Saeed"
-        role="Director international tours"
+        role="Director International Tours"
       />
     </Carousel>
   );
