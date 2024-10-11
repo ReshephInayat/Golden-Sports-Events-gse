@@ -29,8 +29,8 @@ const Footer = () => {
                 Address
               </h1>
               <p className="text-[17px] w-[100%] text-white opacity-60">
-                House No. 42-A <br /> Ground Floor, <br />
-                28 Nisbat Road Lahore
+                Office No. 7,<br />Saima Bridge View,<br />
+                Block-B, North Nazimabad,<br />Karachi, Pakistan
               </p>
             </div>
           </div>
