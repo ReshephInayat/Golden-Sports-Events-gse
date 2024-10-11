@@ -29,8 +29,13 @@ const Footer = () => {
                 Address
               </h1>
               <p className="text-[17px] w-[100%] text-white opacity-60">
-                Office No. 7,<br />Saima Bridge View,<br />
-                Block-B, North Nazimabad,<br />Karachi, Pakistan
+                Office No. 7,
+                <br />
+                Saima Bridge View,
+                <br />
+                Block-B, North Nazimabad,
+                <br />
+                Karachi, Pakistan
               </p>
             </div>
           </div>
@@ -50,7 +55,7 @@ const Footer = () => {
                   href="tel:03007264746"
                   title="Click to Contact Golden Sports Events"
                 >
-                  0300-7264746
+                  +1 (732) 331-7462
                 </a>
                 <br />
                 <a
