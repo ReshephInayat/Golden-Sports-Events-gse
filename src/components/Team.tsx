@@ -1,5 +1,5 @@
 "use client";
-import { AnimatePresence, motion, useInView } from "framer-motion";
+import { AnimatePresence, motion} from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Element } from "react-scroll";
 import TeamEffect from "./TeamEffect";

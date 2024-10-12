@@ -1,11 +1,11 @@
 "use client";
-import { AnimatePresence, motion, useInView } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import AboutEffect from "@/components/AboutEffext";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Image from "next/image";
 import Sections from "@/components/Sections";
+
 const images = [
   "/images/image1.jpg",
   "/images/image2.jpg",
@@ -13,8 +13,16 @@ const images = [
   "/images/image3.jpg",
   "/images/image1.jpg",
   "/images/image5.jpg",
-  // "/images/image1.jpg",
-  // "/images/image4.jpg",
+];
+
+const galleryImages = [
+  { src: "/gallery/image1.jpg", width: 400, height: 400 },
+  { src: "/gallery/image5.jpg", width: 400, height: 400 },
+  { src: "/gallery/image3.jpg", width: 400, height: 400 },
+  { src: "/gallery/image2.jpg", width: 400, height: 400 },
+  { src: "/gallery/image6.jpg", width: 400, height: 300 },
+  { src: "/gallery/image7.jpg", width: 400, height: 400 },
+  { src: "/gallery/image8.jpg", width: 400, height: 400 },
 ];
 
 const Slider = () => {
@@ -78,55 +86,16 @@ const Slider = () => {
 
               <Sections>
                 <div className="flex justify-center flex-wrap gap-40 mt-20 ">
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image1.jpg"}
-                    alt="image"
-                    width={400}
-                    height={400}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image5.jpg"}
-                    alt="image"
-                    width={400}
-                    height={400}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image3.jpg"}
-                    alt="image"
-                    width={400}
-                    height={400}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image2.jpg"}
-                    alt="image"
-                    width={400}
-                    height={400}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image6.jpg"}
-                    alt="image"
-                    width={400}
-                    height={300}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image7.jpg"}
-                    alt="image"
-                    width={400}
-                    height={400}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/gallery/image8.jpg"}
-                    alt="image"
-                    width={400}
-                    height={400}
-                  />{" "}
+                  {galleryImages.map((image, i) => (
+                    <Image
+                      key={i}
+                      className="object-cover"
+                      src={image.src}
+                      alt={`Gallery Image ${i + 1}`}
+                      width={image.width}
+                      height={image.height}
+                    />
+                  ))}
                 </div>
               </Sections>
             </motion.div>

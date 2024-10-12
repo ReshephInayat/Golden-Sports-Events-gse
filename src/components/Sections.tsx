@@ -1,4 +1,3 @@
-
 "use client";
 // Section.tsx
 import { ReactNode, useEffect, useRef } from "react";

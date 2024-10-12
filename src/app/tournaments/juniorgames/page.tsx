@@ -1,11 +1,12 @@
 "use client";
-import { AnimatePresence, motion, useInView } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Image from "next/image";
 import Sections from "@/components/Sections";
 import Section from "@/components/Sections";
+
 const images = [
   "/images/image1.jpg",
   "/images/image2.jpg",
@@ -13,8 +14,17 @@ const images = [
   "/images/image3.jpg",
   "/images/image1.jpg",
   "/images/image5.jpg",
-  // "/images/image1.jpg",
-  // "/images/image4.jpg",
+];
+
+const juniorImages = [
+  "/JuniorImages/1.png",
+  "/JuniorImages/2.png",
+  "/JuniorImages/3.png",
+  "/JuniorImages/4.png",
+  "/JuniorImages/5.png",
+  "/JuniorImages/6.png",
+  "/JuniorImages/7.png",
+  "/JuniorImages/8.png",
 ];
 
 const Slider = () => {
@@ -64,95 +74,50 @@ const Slider = () => {
               className="  pt-[2rem] md:pt-[8rem] pb-[6rem] relative "
             >
               <Section>
-
-              <div className="flex justify-center pb-8">
-                <Link href={`/${"tournaments"}`}>
-                  <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0.5 }}
-                    className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full"
+                <div className="flex justify-center pb-8">
+                  <Link href={`/${"tournaments"}`}>
+                    <motion.button
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0.5 }}
+                      className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full"
                     >
-                    Back
-                  </motion.button>
-                </Link>
-              </div>
-              
-              <h1 className="text-4xl text-white text-center font-semibold mt-8 mb-4 ">
+                      Back
+                    </motion.button>
+                  </Link>
+                </div>
+
+                <h1 className="text-4xl text-white text-center font-semibold mt-8 mb-4 ">
                   Junior Games{" "}
                 </h1>
                 <p className="text-center md:text-3xl text-white mb-2">
-                  ● Cricket, Futsal, Dodgeball, Throwball 
+                  ● Cricket, Futsal, Dodgeball, Throwball
                 </p>
                 <p className="text-center md:text-3xl text-white mb-2">
                   ● Basketball, Tug of War, Karate, Badminton
                 </p>
                 <p className="text-center md:text-3xl text-white mb-2">
-                ● Bean Bag Throw, Table Tennis
+                  ● Bean Bag Throw, Table Tennis
                 </p>
-                    </Section>
+              </Section>
+
+              {/* Render Junior Images using map */}
               <Section>
                 <div className="flex justify-center flex-wrap gap-8 mt-14 ">
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/1.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/2.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/3.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/4.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/5.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/6.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/7.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/JuniorImages/8.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
+                  {juniorImages.map((src, i) => (
+                    <Image
+                      key={i}
+                      className="object-cover"
+                      src={src}
+                      alt={`Junior Image ${i + 1}`}
+                      width={300}
+                      height={400}
+                    />
+                  ))}
                 </div>
               </Section>
-              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+
+              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
                 <Link href={"https://futureworld.edu.pk/"} target="_blank">
                   <Sections>
                     <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">

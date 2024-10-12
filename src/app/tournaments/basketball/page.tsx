@@ -1,12 +1,12 @@
 "use client";
-import { AnimatePresence, motion, useInView } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
-import AboutEffect from "@/components/AboutEffext";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Image from "next/image";
-import Sections from "@/components/Sections";
 import Section from "@/components/Sections";
+import Sections from "@/components/Sections";
+
 const images = [
   "/images/image1.jpg",
   "/images/image2.jpg",
@@ -14,8 +14,22 @@ const images = [
   "/images/image3.jpg",
   "/images/image1.jpg",
   "/images/image5.jpg",
-  // "/images/image1.jpg",
-  // "/images/image4.jpg",
+];
+
+const basketballImages = [
+  "/Basketball/1.jpg",
+  "/Basketball/2.jpg",
+  "/Basketball/3.jpg",
+  "/Basketball/4.jpg",
+  "/Basketball/5.jpg",
+];
+
+const collaborations = [
+  {
+    src: "/patner8.png",
+    name: "LSG 1-A-1",
+    link: "https://www.maximevents.asia/",
+  },
 ];
 
 const Slider = () => {
@@ -65,93 +79,72 @@ const Slider = () => {
               className="  pt-[2rem] md:pt-[8rem] pb-[2rem] relative "
             >
               <Section>
-
-              <div className="flex justify-center ">
-                <Link href={`/${"tournaments"}`}>
-                  <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    exit={{ opacity: 0.5 }}
-                    className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full "
+                <div className="flex justify-center">
+                  <Link href={`/${"tournaments"}`}>
+                    <motion.button
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      exit={{ opacity: 0.5 }}
+                      className=" py-2 px-4 text-lg  bg-red-500 text-white md:text-3xl md:py-3 md:px-10 md:rounded-full "
                     >
-                    Back
-                  </motion.button>
-                </Link>
-              </div>
-                    </Section>
+                      Back
+                    </motion.button>
+                  </Link>
+                </div>
+              </Section>
 
               <Sections>
                 <h1 className="text-4xl text-white text-center font-semibold mt-8 mb-4 ">
                   Badminton & Table Tennis
                 </h1>
                 <p className="text-center md:text-3xl text-white mb-2">
-                  ● Badminton & Table Tennis 
+                  ● Badminton & Table Tennis
                 </p>
                 <p className="text-center md:text-3xl text-white mb-4">
-                  ● School Campionship
+                  ● School Championship
                 </p>
 
+                {/* Render Basketball images using map */}
                 <div className="flex justify-center flex-wrap gap-8 mt-10">
-                  <Image
-                    className="object-cover"
-                    src={"/Basketball/1.jpg"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/Basketball/2.jpg"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/Basketball/3.jpg"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/Basketball/4.jpg"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />{" "}
-                  <Image
-                    className="object-cover"
-                    src={"/Basketball/5.jpg"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />{" "}
+                  {basketballImages.map((src, i) => (
+                    <Image
+                      key={i}
+                      className="object-cover"
+                      src={src}
+                      alt={`Basketball Image ${i + 1}`}
+                      width={300}
+                      height={300}
+                    />
+                  ))}
                 </div>
               </Sections>
+
               <h2 className="text-4xl text-white text-center pt-24 pb-2 font-semibold">
-                      Collaboration
-                    </h2>
-              <div className="flex justify-center  w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white   ">
-                <Link href={"https://www.maximevents.asia/"} target="_blank">
-                  <Sections>
+                Collaboration
+              </h2>
 
-                    <Image
-                      className="object-cover bg-blue-950 px-6 py-6  w-96 h-64"
-                      src={"/patner8.png"}
-                      alt="image3"
-                      width={400}
-                      height={400}
-                    />
-                    <h1 className="text-2xl text-center py-4">LSG 1-A-1</h1>
-                  </Sections>
-                </Link> 
-                </div>
-
+              {/* Render Collaborations using map */}
+              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white">
+                {collaborations.map((collab, i) => (
+                  <Link key={i} href={collab.link} target="_blank">
+                    <Sections>
+                      <Image
+                        className="object-cover bg-blue-950 px-6 py-6 w-96 h-64"
+                        src={collab.src}
+                        alt={collab.name}
+                        width={400}
+                        height={400}
+                      />
+                      <h1 className="text-2xl text-center py-4">
+                        {collab.name}
+                      </h1>
+                    </Sections>
+                  </Link>
+                ))}
+              </div>
             </motion.div>
           </AnimatePresence>
         </div>
-        
       </Element>
     </>
   );

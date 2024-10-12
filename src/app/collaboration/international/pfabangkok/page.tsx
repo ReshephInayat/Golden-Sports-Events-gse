@@ -1,11 +1,12 @@
 "use client";
-import { AnimatePresence, motion, useInView } from "framer-motion";
+import { AnimatePresence, motion } from "framer-motion";
 import React, { useEffect, useState } from "react";
 import { Element } from "react-scroll";
 import Link from "next/link";
 import Image from "next/image";
 import Sections from "@/components/Sections";
 import Section from "@/components/Sections";
+
 const images = [
   "/images/image1.jpg",
   "/images/image2.jpg",
@@ -13,8 +14,17 @@ const images = [
   "/images/image3.jpg",
   "/images/image1.jpg",
   "/images/image5.jpg",
-  // "/images/image1.jpg",
-  // "/images/image4.jpg",
+];
+
+const collabImages = [
+  { src: "/CollabsImages/1.png", width: 300, height: 400 },
+  { src: "/CollabsImages/2.png", width: 300, height: 300 },
+  { src: "/CollabsImages/3.png", width: 300, height: 300 },
+  { src: "/CollabsImages/4.png", width: 300, height: 300 },
+  { src: "/CollabsImages/5.png", width: 300, height: 300 },
+  { src: "/CollabsImages/6.png", width: 300, height: 300 },
+  { src: "/CollabsImages/7.png", width: 300, height: 300 },
+  { src: "/CollabsImages/8.png", width: 300, height: 300 },
 ];
 
 const Slider = () => {
@@ -75,68 +85,24 @@ const Slider = () => {
                   </motion.button>
                 </Link>
               </div>
-              <Section>
-                <div className="flex justify-center flex-wrap gap-8 ">
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/1.png"}
-                    alt="image"
-                    width={300}
-                    height={400}
-                  />
 
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/2.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/3.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/4.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/5.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/6.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/7.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
-                  <Image
-                    className="object-cover "
-                    src={"/CollabsImages/8.png"}
-                    alt="image"
-                    width={300}
-                    height={300}
-                  />
+              <Section>
+                {/* Render Collaboration Images using map */}
+                <div className="flex justify-center flex-wrap gap-8 ">
+                  {collabImages.map((image, i) => (
+                    <Image
+                      key={i}
+                      className="object-cover"
+                      src={image.src}
+                      alt={`Collaboration Image ${i + 1}`}
+                      width={image.width}
+                      height={image.height}
+                    />
+                  ))}
                 </div>
               </Section>
-              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+
+              <div className="flex justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
                 <Link href={"https://pfabangkok.com/"} target="_blank">
                   <Sections>
                     <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
@@ -145,7 +111,7 @@ const Slider = () => {
                     <Image
                       className="object-cover bg-white px-6 py-6"
                       src={"/patner2.jpg"}
-                      alt="image3"
+                      alt="PFA Bangkok"
                       width={400}
                       height={400}
                     />
