@@ -90,22 +90,7 @@ const Slider = () => {
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <NewsEffect />
               </div>
-              <div className="grid grid-cols-1 justify-center w-[80%] md:w-[50%]  mx-auto items-center  mt-[2rem] text-white ">
-                {/* <Sections>
-                  <Link href={"/upcomingevents"}>
-                    <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                          News
-                        </h1>
-                        <p className="text-[25px]">
-                       Upcoming Events
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                </Sections> */}
+              <div className="grid grid-cols-2 gap-10 justify-center w-[80%] md:w-[50%]  mx-auto items-center  mt-[2rem] text-white ">
                 <Sections>
                   <Link href={"/collaboration"}>
                     <div>
@@ -115,6 +100,19 @@ const Slider = () => {
                           Collaboration
                         </h1>
                         <p className="text-[25px]">Our Collabs with patners</p>
+                      </div>
+                    </div>
+                  </Link>
+                </Sections>
+                <Sections>
+                  <Link href={"/gallery"}>
+                    <div>
+                      <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
+                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                          Gallery
+                        </h1>
+                        <p className="text-[25px]">Collaborations</p>
                       </div>
                     </div>
                   </Link>
