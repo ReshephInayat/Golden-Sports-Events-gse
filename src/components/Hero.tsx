@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect, Suspense } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import Particle from "./Particle";
@@ -5,8 +6,7 @@ import TextEffect from "./TextEffect";
 import { Element } from "react-scroll";
 import NavbarHome from "./NavbarHome";
 import Section from "./Sections";
-import Head from 'next/head';
-
+import Head from "next/head";
 
 const images: string[] = [
   "/images/image1.jpg",
@@ -30,20 +30,26 @@ const Slider: React.FC = () => {
     <>
       <Head>
         <title>Golden Sports Events</title>
-        <meta name="description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          name="description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:title" content="Golden Sports Events " />
-        <meta property="og:description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          property="og:description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:image" content="/images/logo.png" />
         <meta name="twitter:card" content="/images/logo.png" />
-        <meta name="twitter:description" content="Unlock The Golden Path To Victory"></meta>
+        <meta
+          name="twitter:description"
+          content="Unlock The Golden Path To Victory"
+        ></meta>
         <link rel="canonical" href="https://goldensportsevents.com/" />
       </Head>
       <NavbarHome />
       <Element name="home">
-        <div
-          id="#home"
-          className="relative w-full h-screen overflow-hidden"
-        >
+        <div id="#home" className="relative w-full h-screen overflow-hidden">
           <AnimatePresence exitBeforeEnter={false}>
             <motion.div
               key={index}
@@ -82,7 +88,13 @@ const LazyImage: React.FC<{ src: string; alt: string }> = ({ src, alt }) => {
     image.src = src;
   }, [src]);
 
-  return <img className="absolute transform -translate-x-1/2 -translate-y-1/2 top-60 md:top-64 left-1/2 md:w-60 w-36 md:h-60 h-36" src={loadedSrc ?? ''} alt={alt} />;
+  return (
+    <img
+      className="absolute transform -translate-x-1/2 -translate-y-1/2 top-60 md:top-64 left-1/2 md:w-60 w-36 md:h-60 h-36"
+      src={loadedSrc ?? ""}
+      alt={alt}
+    />
+  );
 };
 
 export default Slider;
