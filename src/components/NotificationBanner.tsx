@@ -3,6 +3,7 @@ import { useEffect, useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { FaTimesCircle } from "react-icons/fa";
 import { FiAlertCircle } from "react-icons/fi";
+import { Link as ScrollLink } from "react-scroll"; // Use Link from react-scroll
 
 // Hook to detect if the screen is mobile-sized
 const useIsMobile = () => {
@@ -26,11 +27,11 @@ const NotificationBanner: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false); // Start with false to delay the visibility
   const isMobile = useIsMobile(); // Check if the screen is mobile
 
-  // Show banner after 2 seconds
+  // Show banner after 1 second
   useEffect(() => {
     const delayTimer = setTimeout(() => {
       setIsVisible(true);
-    }, 1000); // 2 seconds
+    }, 1000); // 1 second delay
 
     return () => clearTimeout(delayTimer); // Clear timer if component unmounts
   }, []);
@@ -72,7 +73,15 @@ const NotificationBanner: React.FC = () => {
               <p className="font-bold text-lg">Oh snap!</p>
               <p className="text-sm">
                 Our social media account is currently not working. We apologize
-                for the inconvenience.
+                for the inconvenience. For further details,
+                <ScrollLink
+                  to="#contact"
+                  smooth={true}
+                  duration={1000}
+                  className="cursor-pointer text-white underline ml-2 font-bold"
+                >
+                  Contact Us
+                </ScrollLink>
               </p>
             </div>
           </div>
