@@ -35,17 +35,17 @@ export default function TeamSlider() {
       itemClass="item"
     >
       <TeamMembers
-        image="/images/Ceo.png"
+        image="/images/logo.png"
         name="M M Mudassar Iqbal"
         role="CEO"
       />
       <TeamMembers
         image="/images/logo.png"
-        name="Zeeshan Raja"
+        name="Gohar Nayab"
         role="Director Operations"
       />
       <TeamMembers
-        image="/UmarJan.jpg"
+        image="/images/logo.png"
         name="Rana M Umar Jan"
         role="Director Media & Marketing"
       />
