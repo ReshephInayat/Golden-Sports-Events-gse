@@ -16,13 +16,13 @@ const images = [
 ];
 
 const galleryImages = [
-  { src: "/gallery/image1.jpg", width: 400, height: 400 },
-  { src: "/gallery/image5.jpg", width: 400, height: 400 },
-  { src: "/gallery/image3.jpg", width: 400, height: 400 },
-  { src: "/gallery/image2.jpg", width: 400, height: 400 },
-  { src: "/gallery/image6.jpg", width: 400, height: 300 },
-  { src: "/gallery/image7.jpg", width: 400, height: 400 },
-  { src: "/gallery/image8.jpg", width: 400, height: 400 },
+  { src: "/Gallery/image1.jpg", width: 400, height: 400 },
+  { src: "/Gallery/image5.jpg", width: 400, height: 400 },
+  { src: "/Gallery/image3.jpg", width: 400, height: 400 },
+  { src: "/Gallery/image2.jpg", width: 400, height: 400 },
+  { src: "/Gallery/image6.jpg", width: 400, height: 300 },
+  { src: "/Gallery/image7.jpg", width: 400, height: 400 },
+  { src: "/Gallery/image8.jpg", width: 400, height: 400 },
 ];
 
 const Slider = () => {
