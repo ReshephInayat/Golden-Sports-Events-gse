@@ -27,13 +27,18 @@ const NotificationBanner: React.FC = () => {
   const [isVisible, setIsVisible] = useState(false); // Start with false to delay the visibility
   const isMobile = useIsMobile(); // Check if the screen is mobile
 
-  // Show banner after 1 second
+  // Show banner after 1 second if the user hasn't seen it before in the session
   useEffect(() => {
-    const delayTimer = setTimeout(() => {
-      setIsVisible(true);
-    }, 1000); // 1 second delay
+    const hasSeenNotification = sessionStorage.getItem("hasSeenNotification");
 
-    return () => clearTimeout(delayTimer); // Clear timer if component unmounts
+    if (!hasSeenNotification) {
+      const delayTimer = setTimeout(() => {
+        setIsVisible(true);
+        sessionStorage.setItem("hasSeenNotification", "true"); // Set flag in sessionStorage
+      }, 1000); // 1 second delay
+
+      return () => clearTimeout(delayTimer); // Clear timer if component unmounts
+    }
   }, []);
 
   // Auto-close after 10 seconds from when the banner is visible
