@@ -90,7 +90,7 @@ const Slider = () => {
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <NewsEffect />
               </div>
-              <div className="grid grid-cols-2 gap-10 justify-center w-[80%] md:w-[50%]  mx-auto items-center  mt-[2rem] text-white ">
+              <div className="grid grid-cols-1 gap-10 justify-center w-[80%] md:w-[50%]  mx-auto items-center  mt-[2rem] text-white ">
                 <Sections>
                   <Link href={"/collaboration"}>
                     <div>
@@ -104,7 +104,7 @@ const Slider = () => {
                     </div>
                   </Link>
                 </Sections>
-                <Sections>
+                {/* <Sections>
                   <Link href={"/gallery"}>
                     <div>
                       <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
@@ -116,7 +116,7 @@ const Slider = () => {
                       </div>
                     </div>
                   </Link>
-                </Sections>
+                </Sections> */}
               </div>
             </motion.div>
           </AnimatePresence>
