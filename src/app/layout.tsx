@@ -3,7 +3,7 @@ import { Rajdhani } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
-const inter = Rajdhani({ weight: "300", subsets: ["latin"], display: "swap" });
+const inter = Rajdhani({ weight: "400", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "Golden Sports Events",
