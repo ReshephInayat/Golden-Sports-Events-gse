@@ -12,7 +12,7 @@ export default function Homepage() {
     return (
       <>
         <div className="overflow-x-hidden">
-            <NotificationBanner />
+            {/* <NotificationBanner /> */}
           <div>
             {/* Navbar */}
             {/* Hero Section  */}
