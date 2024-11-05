@@ -55,7 +55,7 @@ const Footer = () => {
                   href="tel:03007264746"
                   title="Click to Contact Golden Sports Events"
                 >
-                  +1 (732) 331-7462
+                  0300-7264746
                 </a>
                 <br />
                 <a
