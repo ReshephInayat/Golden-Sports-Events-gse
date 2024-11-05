@@ -41,7 +41,7 @@ export default function TeamSlider() {
       />
       <TeamMembers
         image="/images/logo.png"
-        name="Gohar Nayab"
+        name="Abdul Rehman"
         role="Director Operations"
       />
       <TeamMembers
@@ -51,7 +51,7 @@ export default function TeamSlider() {
       />
       <TeamMembers
         image="/images/logo.png"
-        name="Abdul Rehman"
+        name="Kamil Saeed"
         role="Director International Tours"
       />
     </Carousel>

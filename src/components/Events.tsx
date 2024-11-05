@@ -86,12 +86,12 @@ const Slider = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              className="  pt-[4rem] md:pt-[8rem] pb-[10rem] relative "
+              className="  pt-[4rem] md:pt-[4.5rem] pb-[10rem] relative "
             >
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <EventsEffect />
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white ">
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white">
                 <Sections>
                   <Link href={"/tournaments"}>
                     <div>

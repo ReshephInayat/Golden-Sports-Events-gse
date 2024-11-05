@@ -105,6 +105,18 @@ const Slider = () => {
                     <h1 className="text-2xl text-center py-4">RLFA</h1>
                   </Sections>
                 </Link>
+                <Link href={"https://www.maximevents.asia/"} target="_blank">
+                  <Sections>
+                    <Image
+                      className="object-cover bg-white px-6 py-6 w-[400px]"
+                      src={"/patner1.jpg"}
+                      alt="image3"
+                      width={300}
+                      height={100}
+                    />
+                    <h1 className="text-2xl text-center py-4">Maxim Events</h1>
+                  </Sections>
+                </Link>
               </div>
             </motion.div>
           </AnimatePresence>

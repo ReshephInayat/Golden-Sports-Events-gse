@@ -31,8 +31,8 @@ const Slider = () => {
           style={{
             position: "relative",
             width: "100%",
-            height: "100vh",
-            overflow: "hidden",
+            height: "100%",
+            // overflow: "hidden",
           }}
         >
           <AnimatePresence exitBeforeEnter={false}>
@@ -46,7 +46,7 @@ const Slider = () => {
                 top: 0,
                 left: 0,
                 width: "100%",
-                height: "100vh",
+                height: "100%",
                 backgroundImage: `url(${images[index]})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -57,7 +57,7 @@ const Slider = () => {
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
-                className="  pt-[3rem] md:pt-[rem] pb-[rem] relative "
+                className="  pt-[3rem] md:pt-[2.5rem] pb-[8rem] relative "
               >
                 <div className="flex justify-center pb-8 pt-2">
                   <Link href={`/${"#events"}`}>
@@ -72,36 +72,48 @@ const Slider = () => {
                     </motion.button>
                   </Link>
                 </div>
-                <h1 className="text-6xl text-white text-center font-bold mt-8">
-                  UPCOMING EVENTS
-                </h1>
-                <h2 className="text-4xl text-white text-center pt-6 font-semibold">
-                  {" "}
-                  National
-                </h2>
-                <p className="text-center md:text-2xl  text-white">
-                  → Throwball Campions Girls
+                <div className="flex justify-center items-center">
+                  <h1 className="md:text-6xl text-2xl text-white bg-[#02050a] inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
+                    UPCOMING EVENTS 2025
+                  </h1>
+                </div>
+                {/* <div className="flex justify-center items-center">
+                  <h1 className="text-3xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
+                    National Events
+                  </h1>
+                </div> */}
+
+                <div className="flex justify-center items-center">
+                  <h1 className="md:text-3xl text-xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
+                    International Events
+                  </h1>
+                </div>
+
+                <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>
+                  International Sports Festival
+                  <br />
+                  Dubai
                 </p>
-                <p className="text-center md:text-2xl text-white">
-                  → Throwball Campions Boys
+                <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>
+                  Basketball Championship DUBAI, Bangkok, Tailand
                 </p>
-                <h2 className="text-4xl text-white text-center pt-6 font-semibold">
-                  {" "}
-                  International
-                </h2>
-                <p className="text-center md:text-2xl text-white">
-                  → International Schools Champions Girls <br />
-                  Kuala Lumpur, Malaysia
+                <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>
+                  Asian Football Festival, Qatar
                 </p>
-                <p className="text-center md:text-2xl text-white">
-                  → Bangkok International Youth Football Festival <br />{" "}
-                  Bangkok, Tailand
+                <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>
+                  Friendship Cup, Azerbaijan Baku
                 </p>
-                <p className="text-center md:text-2xl text-white">
-                  → KLI Football Championship
+                <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>
+                  Futsal Cup, Turkey
                 </p>
-                <p className="text-center md:text-2xl text-white">
-                  →GOC gulf open cup Dubai, UAE
+                <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>
+                  International Schools Championship, Kuala Lumpur Malaysia
                 </p>
               </motion.div>
             </Section>

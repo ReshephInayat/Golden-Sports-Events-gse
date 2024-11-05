@@ -81,7 +81,9 @@ const CompanyLogo: React.FC = () => (
 const Slider: React.FC = () => (
   <>
     <HeadMeta />
-    <NavbarHome />
+    <div>
+      <NavbarHome />
+    </div>
     <Element name="home">
       <div id="#home" className="relative w-full min-h-screen overflow-hidden">
         <ImageCarousel />
