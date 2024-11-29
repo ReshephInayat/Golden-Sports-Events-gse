@@ -78,7 +78,9 @@ const NotificationBanner: React.FC = () => {
             <div>
               <p className="font-bold text-xl">Help Us Improve Our Website</p>
               <p className="text-base">
-                We're always looking to improve our website. If you have any feedback or suggestions, please let us know. We'd love to hear from you!
+                We are always looking to improve our website. If you have any
+                feedback or suggestions please let us know. We would love to
+                hear from you!
                 <Link
                   href={"/contact"}
                   className="cursor-pointer text-white underline ml-2 font-bold"
