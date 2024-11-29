@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
-import { Rajdhani } from "next/font/google";
+// import { Rajdhani, } from "next/font/google";
+import { Raleway } from "next/font/google";
 import { Analytics } from "@vercel/analytics/react";
 import "./globals.css";
 
-const inter = Rajdhani({ weight: "400", subsets: ["latin"], display: "swap" });
+const inter = Raleway({ weight: "200", subsets: ["latin"], display: "swap" });
 
 export const metadata: Metadata = {
   title: "Golden Sports Events",
