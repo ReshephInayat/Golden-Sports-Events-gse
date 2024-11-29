@@ -18,23 +18,23 @@ const EventEffect = () => {
       <TypeAnimation
         sequence={[
           1500,
-          "Events & News ",
+          "Events",
           1500,
           "   ",
           1000,
-          "Events& News",
+          "Events",
           1500,
           "  ",
           1000,
-          "Events & News",
+          "Events",
           1500,
           "   ",
           1000,
-          "Events & News",
+          "Events",
           1500,
         ]}
         speed={30}
-        className="text-2xl md:text-4xl underline"
+        className="text-2xl md:text-4xl"
         repeat={Infinity}
       />
     </motion.div>

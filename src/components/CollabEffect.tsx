@@ -18,7 +18,7 @@ const NewsEffect = () => {
       <TypeAnimation
         sequence={[
           1500,
-          "Collab's ",
+          "Collab's",
           1500,
           "   ",
           1000,
@@ -34,7 +34,7 @@ const NewsEffect = () => {
           1500,
         ]}
         speed={30}
-        className="text-2xl md:text-4xl underline"
+        className="text-2xl md:text-4xl"
         repeat={Infinity}
       />
     </motion.div>

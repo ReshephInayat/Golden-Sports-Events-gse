@@ -89,17 +89,18 @@ const Slider = () => {
             >
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <NewsEffect />
+                <div className="w-32 h-1 bg-gradient-to-l from-transparent to-red-800  mx-auto rounded-full" />
               </div>
-              <div className="grid grid-cols-1 gap-10 justify-center w-[80%] md:w-[50%]  mx-auto items-center  mt-[2rem] text-white ">
+              <div className="grid grid-cols-1 gap-10 justify-center w-[80%] md:w-[40%]  mx-auto items-center  mt-[2rem] text-white ">
                 <Sections>
                   <Link href={"/collaboration"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-red-800 to-black/30 rounded-lg hover:transition-all hover:duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           Collaboration
                         </h1>
-                        <p className="text-[25px]">Our Collabs with patners</p>
+                        <p className="text-[20px]">Our Collabs with patners</p>
                       </div>
                     </div>
                   </Link>

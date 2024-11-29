@@ -91,16 +91,17 @@ const Slider = () => {
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <EventsEffect />
               </div>
+              <div className="w-28 h-1 bg-gradient-to-l from-transparent to-yellow-500  mx-auto rounded-full" />
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white">
                 <Sections>
                   <Link href={"/tournaments"}>
                     <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-black rounded-lg hover:bg-gradient hover:from-yellow-500 hover:transition-all hover:duration-500 hover:scale-110 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           Tournaments
                         </h1>
-                        <p className="text-[25px]">
+                        <p className="text-[20px]">
                           Compete fiercely, play fair, champions emerge in
                           spirited tournaments
                         </p>
@@ -111,12 +112,12 @@ const Slider = () => {
                 <Sections>
                   <Link href={"/international"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                      <div className="bg-gradient-to-t from-yellow-500 rounded-lg hover:bg-gradient hover:from-black hover:scale-110 hover:transition-all hover:duration-500 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
+                        <h1 className="text-[20px] md:text-[28px] mt-[1.5rem] mb-[1.5rem]">
                           International Tours
                         </h1>
-                        <p className="text-[25px]">
+                        <p className="text-[20px]">
                           We arrange international sports tours for schools &
                           clubs
                         </p>
@@ -127,12 +128,12 @@ const Slider = () => {
                 <Sections>
                   <Link href={"/upcomingevents"}>
                     <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300 uppercase font-semibold text-center p-[2rem] py-16">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-black rounded-lg hover:bg-gradient hover:from-yellow-500 hover:transition-all hover:duration-500 hover:scale-110 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem] py-14">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           News
                         </h1>
-                        <p className="text-[25px]">
+                        <p className="text-[20px]">
                           {/* Partnership where shared goals create lasting mutual
                           achievements */}
                           Upcoming Events

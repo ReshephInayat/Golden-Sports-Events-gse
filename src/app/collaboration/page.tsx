@@ -107,8 +107,8 @@ const Slider = () => {
                 <Section>
                   <Link href={"/collaboration/international"}>
                     <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-red-800 to-black/30 rounded-lg hover:bg-gradient hover:from-black hover:scale-110 hover:transition-all hover:duration-500 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           International
                         </h1>
@@ -119,8 +119,8 @@ const Slider = () => {
                 <Section>
                   <Link href={"/collaboration/national"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-yellow-500 to-black/30 rounded-lg hover:bg-gradient hover:from-black hover:scale-110 hover:transition-all hover:duration-500 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           National
                         </h1>

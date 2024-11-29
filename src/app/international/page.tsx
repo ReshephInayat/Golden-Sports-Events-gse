@@ -77,31 +77,32 @@ const Slider = () => {
                   </motion.button>
                 </Link>
               </div>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 w-[80%] mx-auto items-center gap-[3rem] mt-[5rem] mb-10 text-white ">
+              <div className="grid grid-cols-1 md:grid-cols-1 lg:grid-cols-1 w-[50%] mx-auto items-center gap-[3rem] mt-[5rem] mb-10 text-white ">
                 <Section>
                   <Link href={"/international/internationaltours"}>
                     <div>
-                      <div className="bg-[#02050a]  hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-red-800 to-black/30 rounded-lg hover:transition-all hover:duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                        International Schools Chamionship Kuala Lumpur, Malysia
+                          International Schools Chamionship Kuala Lumpur,
+                          Malysia
                         </h1>
                       </div>
                     </div>
                   </Link>
                 </Section>
-                <Section>
+                {/* <Section>
                   <Link href={"/international/comingsoon"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-black hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[3rem]">
+                      <div className="bg-gradient-to-t from-red-800 to-black/30 rounded-lg hover:transition-all hover:duration-500  uppercase font-semibold text-center p-[2rem]">
                         <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
-                              Coming Soon........
+                                Coming Soon........
                         </h1>
                       </div>
                     </div>
                   </Link>
-                </Section>
+                </Section> */}
               </div>
             </motion.div>
           </AnimatePresence>

@@ -4,6 +4,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import { FaTimesCircle } from "react-icons/fa";
 import { FiAlertCircle } from "react-icons/fi";
 import { Link as ScrollLink } from "react-scroll"; // Use Link from react-scroll
+import Link from "next/link";
 
 // Hook to detect if the screen is mobile-sized
 const useIsMobile = () => {
@@ -70,23 +71,20 @@ const NotificationBanner: React.FC = () => {
           transition={{ duration: 0.5 }}
           className={`fixed ${
             isMobile ? "bottom-1 w-full" : "top-24 ml-6 w-96"
-          } bg-red-500 text-white rounded-lg shadow-lg p-4 z-50 flex items-center justify-between`}
+          } bg-gradient-to-b from-red-800 to-black text-white rounded-lg shadow-lg p-4 z-50 flex items-center justify-between`}
         >
           <div className="flex items-center">
             <FiAlertCircle className="text-2xl mr-3" />
             <div>
-              <p className="font-bold text-lg">Oh snap!</p>
-              <p className="text-sm">
-                Our social media account is currently not working. We apologize
-                for the inconvenience. For further details,
-                <ScrollLink
-                  to="#contact"
-                  smooth={true}
-                  duration={1000}
+              <p className="font-bold text-xl">Help Us Improve Our Website</p>
+              <p className="text-base">
+                We're always looking to improve our website. If you have any feedback or suggestions, please let us know. We'd love to hear from you!
+                <Link
+                  href={"/contact"}
                   className="cursor-pointer text-white underline ml-2 font-bold"
                 >
                   Contact Us
-                </ScrollLink>
+                </Link>
               </p>
             </div>
           </div>

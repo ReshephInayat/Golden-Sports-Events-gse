@@ -35,14 +35,23 @@ const Slider = () => {
 
   return (
     <>
-        <Head>
+      <Head>
         <title>Golden Sports Events</title>
-        <meta name="description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          name="description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:title" content="Golden Sports Events " />
-        <meta property="og:description" content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!" />
+        <meta
+          property="og:description"
+          content="Welcome to Golden Sports Events, your premier destination for organizing unforgettable sports events for schools and clubs. From thrilling tournaments to exciting competitions, we specialize in curating dynamic experiences that inspire teamwork, skill development, and sportsmanship. Additionally, embark on unforgettable international tours curated by our expert team, offering unparalleled opportunities for athletes to explore new cultures, compete on a global stage, and create lifelong memories. Join us in fostering a passion for sports, fostering camaraderie, and creating lasting connections through the power of athletics. Start your journey with Golden Sports Events today!"
+        />
         <meta property="og:image" content="/images/logo.png" />
         <meta name="twitter:card" content="/images/logo.png" />
-        <meta name="twitter:description" content="Unlock The Golden Path To Victory"></meta>
+        <meta
+          name="twitter:description"
+          content="Unlock The Golden Path To Victory"
+        ></meta>
         <link rel="canonical" href="https://goldensportsevents.com/" />
       </Head>
       <Element name="#about">
@@ -81,16 +90,17 @@ const Slider = () => {
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <AboutEffect />
               </div>
+              <div className="w-28 h-1 bg-gradient-to-l from-transparent to-yellow-500  mx-auto rounded-full" />
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[2rem] text-white ">
                 <Section>
                   <Link href={"/ourmission"}>
                     <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a] hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-black rounded-lg hover:bg-gradient hover:from-yellow-500 hover:scale-110 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           Our Mission
                         </h1>
-                        <p className="text-[25px]">
+                        <p className="text-[20px]">
                           our Mission Is To Inspire And Unite People Through The
                           Power Of Sports
                         </p>
@@ -101,12 +111,12 @@ const Slider = () => {
                 <Section>
                   <Link href={"/aboutus"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-[#02050a] hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-yellow-500 rounded-lg hover:bg-gradient hover:from-black hover:scale-110 hover:transition-all hover:duration-500 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           About Us
                         </h1>
-                        <p className="text-[25px]">
+                        <p className="text-[20px]">
                           We pride ourselves on delivering exceptional sports
                           experiences
                         </p>
@@ -117,12 +127,12 @@ const Slider = () => {
                 <Section>
                   <Link href={"/whatwedo"}>
                     <div>
-                      <div className="bg-black bg-opacity-20 hover:bg-[#02050a]  hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
+                      <div className="bg-gradient-to-t from-black rounded-lg hover:bg-gradient hover:transition-all hover:duration-500 hover:from-yellow-500 hover:scale-110 transition-all duration-500 uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           What We Do
                         </h1>
-                        <p className="text-[25px]">
+                        <p className="text-[20px]">
                           We organize sports events And international sports
                           tours
                         </p>

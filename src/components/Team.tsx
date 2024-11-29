@@ -56,6 +56,7 @@ const Slider = () => {
               <div className="text-center text-white text-[28px] sm:text-[33px] md:text-[45px] uppercase font-bold shadow-black mt-10 ">
                 <TeamEffect />
               </div>
+              <div className="w-28 h-1 bg-gradient-to-l from-transparent to-yellow-500  mx-auto rounded-full" />
               <div className="pt-[5rem] pb-[4rem] w-[80%] mx-auto">
                 <TeamSlider />
               </div>

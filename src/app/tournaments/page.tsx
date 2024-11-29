@@ -78,25 +78,22 @@ const Slider = () => {
                 </Link>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] mb-10 text-white  ">
-               
-                
-              <Section>
+                <Section>
                   <Link href={"/tournaments/basketball"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-black hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
-                        <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
-                        <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
+                      <div className="bg-gradient-to-t from-black rounded-lg hover:bg-gradient hover:from-yellow-500 hover:scale-110 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
+                        <ChevronDoubleUpIcon className="w-[4rem] h-[6rem] mx-auto text-white" />
+                        <h1 className="text-[20px] md:text-[28px] mt-[1.5rem] mb-[1.5rem]">
                           Badminton & Tennis
-
                         </h1>
                       </div>
                     </div>
                   </Link>
-              </Section>
-              <Section>
+                </Section>
+                <Section>
                   <Link href={"/tournaments/azadigames"}>
                     <div>
-                      <div className="bg-[#02050a]  hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
+                      <div className="bg-gradient-to-t from-yellow-500 rounded-lg hover:bg-gradient hover:from-black hover:scale-110 hover:transition-all hover:duration-500 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
                         <ChevronDoubleUpIcon className="w-[6rem] h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           Azadi Games
@@ -105,11 +102,11 @@ const Slider = () => {
                     </div>
                   </Link>
                 </Section>
-                
+
                 <Section>
                   <Link href={"/tournaments/juniorgames"}>
                     <div>
-                      <div className="bg-yellow-600 hover:bg-black hover:bg-opacity-20 hover:scale-110 transform transition-all duration-300  uppercase font-semibold text-center p-[2rem]">
+                      <div className="bg-gradient-to-t from-black rounded-lg hover:bg-gradient hover:from-yellow-500 hover:scale-110 transform transition-all duration-500  uppercase font-semibold text-center p-[2rem]">
                         <ChevronDoubleUpIcon className="w-[6rem h-[6rem] mx-auto text-white" />
                         <h1 className="text-[20px] md:text-[30px] mt-[1.5rem] mb-[1.5rem]">
                           Junior Games

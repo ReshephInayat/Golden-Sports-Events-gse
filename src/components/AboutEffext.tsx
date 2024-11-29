@@ -18,15 +18,15 @@ const AboutEffect = () => {
       <TypeAnimation
         sequence={[
           1500,
-          "About  ",
+          "About",
           1500,
           "   ",
           1000,
-          "About ",
+          "About",
           1500,
           "  ",
           1000,
-          "About ",
+          "About",
           1500,
           "   ",
           1000,
@@ -34,7 +34,7 @@ const AboutEffect = () => {
           1500,
         ]}
         speed={30}
-        className="text-2xl md:text-4xl underline"
+        className="text-2xl md:text-4xl"
         repeat={Infinity}
       />
     </motion.div>
