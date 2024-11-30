@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Send, Loader2, Phone } from "lucide-react";
 import { contactFormSchema, type ContactFormData } from "@/types/types";
 import { ZodError } from "zod"; // Import ZodError for strong typing
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 const ContactPage = () => {
   const [formData, setFormData] = useState<ContactFormData>({
@@ -80,13 +80,12 @@ const ContactPage = () => {
 
       <div className="max-w-2xl mx-auto">
         {/* Header */}
-        <a href="/">
+        <Link href="/">
           <button className="flex justify-center items-center w-full h-full mb-4 text-xl text-white">
             back
-            <br />
-            ←
+            <br />←
           </button>
-        </a>
+        </Link>
         <div className="text-center mb-2 flex justify-center items-center gap-2">
           <h1 className="text-4xl font-bold text-white mb-4">Contact Us</h1>
         </div>
