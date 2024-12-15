@@ -54,6 +54,17 @@ export default function TeamSlider() {
         name="Kamil Saeed"
         role="Director International Tours"
       />
+      <TeamMembers
+        image="/images/logo.png"
+        name="Abdul Qayum"
+        role=""
+      />
+      <TeamMembers image="/images/logo.png" name="Asmaa Usman" role="" />
+      <TeamMembers
+        image="/images/logo.png"
+        name="Surkhaab Bhatti"
+        role=""
+      />
     </Carousel>
   );
 }
