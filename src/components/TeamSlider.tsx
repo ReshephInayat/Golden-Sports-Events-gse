@@ -57,13 +57,13 @@ export default function TeamSlider() {
       <TeamMembers
         image="/images/logo.png"
         name="Abdul Qayum"
-        role=""
+        role="Focal Person"
       />
-      <TeamMembers image="/images/logo.png" name="Asmaa Usman" role="" />
       <TeamMembers
         image="/images/logo.png"
-        name="Surkhaab Bhatti"
-        role=""
+        name="Asmaa Usman"
+        role="Director Executive 
+"
       />
     </Carousel>
   );
