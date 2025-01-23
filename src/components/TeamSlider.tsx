@@ -39,31 +39,20 @@ export default function TeamSlider() {
         name="M M Mudassar Iqbal"
         role="CEO"
       />
+        <TeamMembers
+          image="/images/logo.png"
+          name="Asmaa Usman"
+          role="Executive Director"
+        />
       <TeamMembers
         image="/images/logo.png"
         name="Abdul Rehman"
-        role="Director Operations"
-      />
-      <TeamMembers
-        image="/images/logo.png"
-        name="Rana M Umar Jan"
-        role="Director Media & Marketing"
-      />
-      <TeamMembers
-        image="/images/logo.png"
-        name="Kamil Saeed"
-        role="Director International Tours"
+        role="Manager Operations"
       />
       <TeamMembers
         image="/images/logo.png"
         name="Abdul Qayum"
         role="Focal Person"
-      />
-      <TeamMembers
-        image="/images/logo.png"
-        name="Asmaa Usman"
-        role="Director Executive 
-"
       />
     </Carousel>
   );
