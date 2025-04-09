@@ -60,7 +60,7 @@ const Slider = () => {
                 top: 0,
                 left: 0,
                 width: "100%",
-                height: "100%",
+                height: "100vh",
                 backgroundImage: `url(${images[index]})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -89,26 +89,52 @@ const Slider = () => {
                     UPCOMING EVENTS 2025
                   </h1>
                 </div>
-                <div className="flex justify-center items-center">
-                  <h1 className="text-3xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
+                <br></br>
+                <div className="flex flex-col justify-center items-center">
+                  
+                 <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>{" "}
+                  GSE DUBAI CRICKER LEAGUE
+                  <br />
+                  In April 2025
+                  </p>
+                  <br/>
+                  <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>{" "}
+                  GSE BREADFORD CRICKER TOURNAMENT
+                  <br />
+                  In July 2025
+                  </p>
+                  <br/>
+                  <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>{" "}
+                  GSE BAKU SPORTS FESTIVAL
+                  <br />
+                  In APRIL AND July 2025
+                  </p>
+                  {/* <h1 className="text-3xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
                     National Events
-                  </h1>
+                  </h1> */}
+
                 </div>
-                <p className="cursor-pointer text-center md:text-2xl m-2 text-white">
+
+                {/* <p className="cursor-pointer text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span> Fit in 5
                 </p>
                 <p className="cursor-pointer text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span> Champions
                   Arena
-                </p>
+                </p> */}
 
                 <div className="flex justify-center items-center">
-                  <button
+
+                  {/* <button
                     onClick={handleNationalShowImages}
                     className="flex text-white bg-red-600 px-4 py-2 my-2 rounded"
                   >
                     See Posters
-                  </button>
+                  </button> */}
+
                 </div>
                 {showNationalImages && (
                   <div className="flex flex-col md:flex-row gap-5 justify-center items-center w-full h-full">
@@ -134,12 +160,14 @@ const Slider = () => {
                 )}
 
                 <div className="flex justify-center items-center">
-                  <h1 className="md:text-3xl text-xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
+
+                  {/* <h1 className="md:text-3xl text-xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
                     International Events
-                  </h1>
+                  </h1> */}
+
                 </div>
 
-                <p className="text-center md:text-2xl m-2 text-white">
+                {/* <p className="text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span>{" "}
                   International Sports Festival
                   <br />
@@ -178,14 +206,17 @@ const Slider = () => {
                 <p className="text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span>
                   International Schools Championship, Kuala Lumpur Malaysia
-                </p>
+                </p> */}
+
                 <div className="flex justify-center items-center">
-                  <button
+
+                  {/* <button
                     onClick={handleInterNationalShowImages}
                     className="flex text-white bg-red-600 px-4 py-2 my-2 rounded"
                   >
                     See Posters
-                  </button>
+                  </button> */}
+
                 </div>
                 {showInterNationalImages && (
                   <div className="flex flex-col md:flex-row gap-5 justify-center items-center w-full h-full">
