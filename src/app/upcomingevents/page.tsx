@@ -60,7 +60,7 @@ const Slider = () => {
                 top: 0,
                 left: 0,
                 width: "100%",
-                height: "100vh",
+                height: "100%",
                 backgroundImage: `url(${images[index]})`,
                 backgroundSize: "cover",
                 backgroundPosition: "center",
@@ -94,23 +94,46 @@ const Slider = () => {
                   
                  <p className="text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span>{" "}
-                  GSE DUBAI CRICKER LEAGUE
+                  GSE X PICA Dubai Cricket
                   <br />
-                  In April 2025
+                  In June 2025
                   </p>
                   <br/>
                   <p className="text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span>{" "}
-                  GSE BREADFORD CRICKER TOURNAMENT
+                  GSE Breadford Cricket Tournament
                   <br />
                   In July 2025
                   </p>
                   <br/>
                   <p className="text-center md:text-2xl m-2 text-white">
                   <span className="text-yellow-400 font-bold">→</span>{" "}
-                  GSE BAKU SPORTS FESTIVAL
+                  GSE Baku Sports Festival
                   <br />
-                  In APRIL AND July 2025
+                  In June 2025
+                  </p>
+                  <br/>
+                  <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>{" "}
+                  GSE x Veelsports x Pickleball Pakistan 
+                  
+                  <br />
+                  Lahore Pickleball Championship 1.0
+                  </p>
+                  <br/>
+                  <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>{" "}
+                  GSE x 313 Fitness Club 
+                  
+                  <br />
+                  LFit in 5 Lahore Edition
+                  </p>
+                  <br/>
+                  <p className="text-center md:text-2xl m-2 text-white">
+                  <span className="text-yellow-400 font-bold">→</span>{" "}
+                  GSE Squid Games REAL LIFE
+                  <br />
+                  In April 2025
                   </p>
                   {/* <h1 className="text-3xl text-white bg-yellow-600 inline text-center font-bold mt-6 px-8 py-3 rounded-lg">
                     National Events
