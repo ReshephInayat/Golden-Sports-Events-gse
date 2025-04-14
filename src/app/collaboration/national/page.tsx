@@ -75,8 +75,82 @@ const Slider = () => {
                   </motion.button>
                 </Link>
               </div>
-
               <div className=" flex flex-col md:flex-row  justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+                <Link href={"/"}>
+                  <Sections>
+                    {/* <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
+                      Collaboration with
+                    </h2> */}
+                    <Image
+                      className="object-contain  bg-white px-6 py-6 w-[300px] h-[300px]"
+                      src={"/patner13.jpeg"}
+                      alt="image3"
+                      width={500}
+                      height={500}
+                    />
+                    <h1 className="text-2xl text-center py-4">
+                      Global Services
+                    </h1>
+                  </Sections>
+                </Link>
+                <Link href={"/"} target="_blank">
+                  <Sections>
+                    <Image
+                      className="object-contain bg-white px-6 py-6 w-[300px] h-[300px]"
+                      src={"/patner15.png"}
+                      alt="image3"
+                      width={500}
+                      height={500}
+                    />
+                    <h1 className="text-2xl text-center py-4">
+                      313 Fitness Club
+                    </h1>
+                  </Sections>
+                </Link>
+                <Link href={"/"} target="_blank">
+                  <Sections>
+                    <Image
+                      className="object-contain bg-white px-6 py-6 w-[300px] h-[300px]"
+                      src={"/patner16.png"}
+                      alt="image3"
+                      width={500}
+                      height={500}
+                    />
+                    <h1 className="text-2xl text-center py-4">
+                      Pikle Ball Pakistan
+                    </h1>
+                  </Sections>
+                </Link>
+                <Link href={"/"} target="_blank">
+                  <Sections>
+                    <Image
+                      className="object-contain bg-white px-6 py-6 w-[300px] h-[300px]"
+                      src={"/patner17.jpg"}
+                      alt="image3"
+                      width={500}
+                      height={500}
+                    />
+                    <h1 className="text-2xl text-center py-4">
+                      Veel Sports
+                    </h1>
+                  </Sections>
+                </Link>
+              </div>
+              <div className=" flex flex-col md:flex-row  justify-center w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white ">
+              <Link href={"/"}>
+                  <Sections>
+                    <Image
+                      className="object-cover bg-white px-6 py-6 w-[300px] h-[300px]"
+                      src={"/patner14.jpeg"}
+                      alt="image3"
+                      width={1000}
+                      height={1000}
+                    />
+                    <h1 className="text-2xl text-center py-4">
+                      Pak Lions
+                    </h1>
+                  </Sections>
+                </Link>
                 <Link href={"/"}>
                   <Sections>
                     {/* <h2 className="text-4xl text-white text-center pt-2 pb-2 font-semibold">
@@ -90,7 +164,7 @@ const Slider = () => {
                       height={500}
                     />
                     <h1 className="text-2xl text-center py-4">
-                      Punjab Olympic Associations
+                      Punjab Olympic 
                     </h1>
                   </Sections>
                 </Link>
@@ -108,7 +182,7 @@ const Slider = () => {
                     </h1>
                   </Sections>
                 </Link>
-                <Link href={"https://thecityschool.edu.pk/"} target="_blank">
+                <Link href={"/"} target="_blank">
                   <Sections>
                     <Image
                       className="object-contain bg-white px-6 py-6 w-[300px] h-[300px]"
